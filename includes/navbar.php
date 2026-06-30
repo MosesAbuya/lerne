@@ -7,7 +7,7 @@ $isHeroPage = in_array($currentPage, ['index.php']);
     <div class="laf-navbar-inner position-relative w-100 container-fluid px-4">
         <!-- Brand: Logo (Left) -->
         <a href="index" class="laf-navbar-brand mr-4">
-            <img src="images/lerne/logo/logo.png" alt="Lerne Adams Foundation" style="height: 80px; max-height: 80px;">
+            <img src="images/lerne/logo/logo-square.png" alt="Lerne Adams Foundation" style="height: 80px; max-height: 80px;">
         </a>
 
         <!-- Desktop Navigation (Left-aligned next to logo) -->

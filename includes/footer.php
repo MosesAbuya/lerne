@@ -41,7 +41,7 @@
                 <!-- Col 1: Brand + Social -->
                 <div class="col-lg-4 col-md-6">
                     <a href="index" class="d-flex align-items-center gap-3 text-decoration-none mb-4">
-                        <img src="images/lerne/logo/logo.png" alt="Lerne Adams Foundation" style="height:65px;object-fit:contain;">
+                        <img src="images/lerne/logo/logo-square.png" alt="Lerne Adams Foundation" style="height:65px;object-fit:contain;">
                     </a>
                     <p style="font-size:0.9rem;line-height:1.8;color:rgba(255,255,255,0.6);margin-bottom:24px;">
                         Lerne Adams Foundation (LAF) is an indigenous Kenyan NGO empowering marginalized communities in the Lake Victoria Region through health, education, SGBV advocacy, and socio-economic programmes.
