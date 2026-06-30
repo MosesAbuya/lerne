@@ -1,0 +1,253 @@
+@font-face {
+  font-family: "florania";
+  src: url(assets/fonts/florania.otf);
+}
+.rotate-in {
+  opacity: 0;
+  transform: rotate(-15deg);
+  transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.rotate-in.active {
+  opacity: 1;
+  transform: rotate(0deg);
+}
+
+.zoom-in {
+  opacity: 0;
+  transform: scale(0.8);
+  transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.zoom-in.active {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.slide-in-bottom {
+  opacity: 0;
+  transform: translateY(100px);
+  transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.slide-in-bottom.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.slide-in-left {
+  opacity: 0;
+  transform: translateX(-100px);
+  transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.slide-in-left.active {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.slide-in-right {
+  opacity: 0;
+  transform: translateX(100px);
+  transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.slide-in-right.active {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.fade-in.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+.scroll-image {
+  transition: transform 0.2s ease-out;
+}
+
+.n-font {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.text-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: inherit;
+  margin: 45px;
+  overflow: hidden;
+  h1 {
+    font-size: 4.5rem;
+    font-weight: 800;
+    text-align: center;
+    color: #f27420;
+  }
+  #lft,
+  #lft2 {
+    text-align: left;
+  }
+  .text-area-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 400px;
+    margin: 20px;
+    .text-area-text-left {
+      width: 50%;
+      height: 100%;
+      border-bottom: 5px solid #f27420;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      h2 {
+        margin: 20px;
+        font-size: 2.5rem;
+        font-family: "florania";
+        font-weight: 700;
+        color: #f27420;
+      }
+      p {
+        margin: 20px;
+      }
+    }
+    .text-area-image-right {
+      width: 50%;
+      img {
+        width: 100%;
+        height: 100%;
+        border-right: 30px solid #f27420;
+        border-bottom: 30px solid #f27420;
+      }
+    }
+    .text-area-text-right {
+      width: 50%;
+      height: 100%;
+      border-top: 5px solid #f27420;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+
+      h2 {
+        margin: 20px;
+        font-size: 2.5rem;
+        font-family: "florania";
+        font-weight: 700;
+        color: #f27420;
+      }
+      p {
+        margin: 20px;
+      }
+    }
+    .text-area-image-left {
+      width: 50%;
+      img {
+        width: 100%;
+        height: 100%;
+        border-left: 30px solid #f27420;
+        border-top: 30px solid #f27420;
+      }
+    }
+    .text-area-text-mid-left {
+      width: 50%;
+      height: 100%;
+      border-bottom: 5px solid #f27420;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      h2 {
+        margin: 20px;
+        font-size: 2.5rem;
+        font-family: "florania";
+        font-weight: 700;
+        color: #f27420;
+      }
+      p {
+        margin: 20px;
+      }
+    }
+    .text-area-image-mid-right {
+      width: 50%;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .text-area-text-mid-right {
+      width: 50%;
+      height: 100%;
+      border-top: 5px solid #f27420;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+      h2 {
+        margin: 20px;
+        font-size: 2.5rem;
+        font-family: "florania";
+        font-weight: 700;
+        color: #f27420;
+      }
+      p {
+        margin: 20px;
+      }
+    }
+    .text-area-image-mid-left {
+      width: 50%;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .text-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+    .text-area-container {
+      height: fit-content;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 50px;
+      .text-area-image-left,
+      .text-area-image-mid-left,
+      .text-area-image-mid-right,
+      .text-area-image-right {
+        width: 100%;
+        height: 100%;
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+
+      .t-area {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        p {
+          width: 100%;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,135 @@
+.bio {
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  .bio-item {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    .bio-left {
+      align-items: center;
+      justify-content: center;
+      height: 50px;
+      width: 100%;
+      display: flex;
+      background-color: #f27420;
+      border: 1px solid #f27420;
+      border-bottom: 1px solid #fff;
+      h2 {
+        text-align: center;
+        color: #fff;
+      }
+    }
+    .bio-right {
+      height: 50px;
+      width: 100%;
+      display: flex;
+      background-color: #fff;
+      border: 1px solid #f27420;
+      align-items: center;
+      justify-content: center;
+      h3 {
+        text-align: center;
+        color: #f27420;
+      }
+    }
+  }
+  .b-out {
+    margin-top: 20px;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    form {
+      margin: 5px;
+      button {
+        background-color: #f27420;
+        border: 1px solid;
+        color: #fff;
+      }
+    }
+    button {
+      background-color: #fff;
+      border: 1px solid #f27420;
+      height: 50px;
+      width: 100%;
+      color: #f27420;
+      a {
+        color: #f27420;
+      }
+    }
+  }
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  height: fit-content;
+  border: 2px solid #f27420;
+  border-radius: 10px;
+  .modal-content {
+    width: 100%;
+    font-size: 2.5rem;
+    .close {
+      margin: 10px;
+      font-size: 2rem;
+      color: #f27420;
+    }
+    form {
+      label {
+        font-size: medium;
+        color: #f27420;
+        margin: 5px;
+      }
+      input {
+        width: 90%;
+        margin: 5px;
+      }
+      button {
+        background-color: #f27420;
+        border: 1px solid #f27420;
+        height: 50px;
+        width: 100%;
+        color: #ffffff;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .bio {
+    width: 90%;
+    .bio-item {
+      width: 100%;
+      .bio-left {
+        width: 100%;
+        h1 {
+          font-size: 12px;
+        }
+      }
+      .bio-right {
+        width: 100%;
+        h3 {
+          font-size: 10px;
+        }
+      }
+    }
+    .b-out {
+      width: 100%;
+      flex-direction: column;
+      button {
+        width: 100%;
+        margin-bottom: 10px;
+      }
+    }
+  }
+  .modal {
+    width: 90%;
+  }
+}

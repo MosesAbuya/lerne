@@ -1,0 +1,129 @@
+.volunteer {
+  display: block;
+  width: 100%;
+  padding: 30px;
+  h1 {
+    font-family: "florania";
+    font-size: 4.5rem;
+    text-align: left;
+    margin-bottom: 30px;
+    color: #f27420;
+    font-weight: 800;
+    width: 60%;
+    margin-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .vol-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    .vol-images {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 100%;
+      padding-left: 50px;
+      padding-right: 50px;
+      img {
+        height: auto;
+        width: 33%;
+      }
+    }
+    .vol-row {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 100%;
+      padding-top: 100px;
+      align-items: center;
+      padding: 50px;
+
+      .vol-text {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        border-bottom: 10px solid #f27420;
+        p {
+          padding: 10px;
+        }
+      }
+      .vol-img {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        width: 100%;
+        margin-top: 20px;
+
+        img {
+          border-right: 20px solid #f27420;
+          border-bottom: 10px solid #f27420;
+          right: 0;
+        }
+        #right {
+          width: 50%;
+        }
+        #left {
+          width: 50%;
+          height: auto;
+          border-right: 20px solid #f27420;
+          border-bottom: 10px solid #f27420;
+          margin-right: -70px;
+          margin-bottom: -30px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  .volunteer {
+    padding: 0px;
+    width: 100%;
+    h1 {
+      padding: 20px;
+      width: 80%;
+    }
+    .vol-container {
+      flex-direction: column;
+      width: 100%;
+      .vol-images {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px;
+        img {
+          width: 100%;
+          padding: 10px;
+        }
+      }
+      .vol-row {
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        .vol-text {
+          width: 100%;
+          p {
+            padding: 20px;
+          }
+        }
+        .vol-img {
+          flex-direction: column;
+          width: 100%;
+          padding: 13px;
+          margin-bottom: 20px;
+          #right {
+            width: 100%;
+          }
+          #left {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}

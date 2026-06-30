@@ -1,0 +1,614 @@
+/* ==========================================================================
+   LERNE ADAMS FOUNDATION   SECTION STYLES
+   ========================================================================== */
+
+/* ==========================================================================
+   Sector Cards (Homepage & Programs Page)
+   ========================================================================== */
+.laf-sector-card {
+    border-top: 5px solid var(--laf-green); /* Default */
+    height: 100%;
+}
+
+.laf-sector-card .icon-circle {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    background: rgba(0,0,0,0.05);
+    transition: var(--transition);
+}
+
+.laf-sector-card:hover .icon-circle {
+    transform: scale(1.1);
+}
+
+.laf-sector-card.sector-women { border-top-color: var(--laf-orange); }
+.laf-sector-card.sector-women .icon-circle { background: rgba(232, 117, 26, 0.1); color: var(--laf-orange); }
+
+.laf-sector-card.sector-hiv { border-top-color: var(--laf-red); }
+.laf-sector-card.sector-hiv .icon-circle { background: rgba(192, 57, 43, 0.1); color: var(--laf-red); }
+
+.laf-sector-card.sector-hygiene { border-top-color: var(--laf-teal); }
+.laf-sector-card.sector-hygiene .icon-circle { background: rgba(26, 188, 156, 0.1); color: var(--laf-teal); }
+
+.laf-sector-card.sector-srh { border-top-color: var(--laf-purple); }
+.laf-sector-card.sector-srh .icon-circle { background: rgba(123, 63, 160, 0.1); color: var(--laf-purple); }
+
+.laf-sector-card.sector-sgbv { border-top-color: var(--laf-sgbv-red); }
+.laf-sector-card.sector-sgbv .icon-circle { background: rgba(139, 32, 32, 0.1); color: var(--laf-sgbv-red); }
+
+.laf-sector-card.sector-child { border-top-color: var(--laf-blue); }
+.laf-sector-card.sector-child .icon-circle { background: rgba(41, 128, 185, 0.1); color: var(--laf-blue); }
+
+.laf-sector-card.sector-mental { border-top-color: var(--laf-mental-purple); }
+.laf-sector-card.sector-mental .icon-circle { background: rgba(91, 45, 142, 0.1); color: var(--laf-mental-purple); }
+
+.laf-sector-link {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    letter-spacing: 0.05em;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: auto;
+}
+.laf-sector-link i { transition: transform 0.3s ease; }
+.laf-sector-card:hover .laf-sector-link i { transform: translateX(5px); }
+
+/* ==========================================================================
+   Stats Counter
+   ========================================================================== */
+.laf-stats-block {
+    text-align: center;
+    padding: 30px 15px;
+}
+
+.laf-stats-icon {
+    font-size: 2.5rem;
+    color: var(--laf-green);
+    margin-bottom: 15px;
+}
+
+.laf-stats-number {
+    font-family: var(--font-heading);
+    font-size: 3.5rem;
+    color: var(--laf-yellow);
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 10px;
+}
+
+.laf-stats-label {
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-size: 0.9rem;
+    color: var(--laf-white);
+}
+
+/* ==========================================================================
+   CTA Banner - Defined in laf-brand.css, overrides only here
+   ========================================================================== */
+/* NOTE: .laf-cta-banner main styles are in laf-brand.css */
+
+/* ==========================================================================
+   Partners Strip
+   ========================================================================== */
+.laf-partner-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 25px;
+    background: var(--laf-white);
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    height: 80px;
+    font-weight: 700;
+    color: var(--laf-text-muted);
+    transition: var(--transition);
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.laf-partner-item:hover {
+    color: var(--laf-green);
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* ==========================================================================
+   Testimonial / Quote Block
+   ========================================================================== */
+.laf-testimonial {
+    background: var(--laf-white);
+    padding: 40px;
+    border-radius: var(--card-radius);
+    position: relative;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+}
+
+.laf-testimonial::before {
+    content: '\f10d';
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    font-size: 3rem;
+    color: rgba(61, 139, 55, 0.1);
+}
+
+.laf-testimonial-text {
+    font-size: 1.1rem;
+    font-style: italic;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 2;
+}
+
+/* ==========================================================================
+   Value Cards (About Page)
+   ========================================================================== */
+.laf-value-card {
+    text-align: center;
+    padding: 30px 15px;
+    background: var(--laf-white);
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.03);
+    height: 100%;
+    transition: var(--transition);
+}
+
+.laf-value-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+.laf-value-icon {
+    font-size: 2rem;
+    color: var(--laf-green);
+    margin-bottom: 15px;
+}
+
+.laf-value-title {
+    font-size: 1.1rem;
+    margin: 0;
+    font-weight: 700;
+}
+
+/* ==========================================================================
+   Google Translate Widget Wrapper
+   ========================================================================== */
+.laf-translate-widget {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.goog-te-gadget-simple {
+    background-color: transparent !important;
+    border: 1px solid rgba(255,255,255,0.3) !important;
+    border-radius: 4px;
+    padding: 2px 8px !important;
+}
+
+.goog-te-gadget-simple .goog-te-menu-value span {
+    color: var(--laf-white) !important;
+    font-family: var(--font-body);
+    font-size: 0.8rem;
+}
+
+.goog-te-gadget-icon {
+    display: none !important;
+}
+
+/* ==========================================================================
+   Map Container
+   ========================================================================== */
+.laf-map-container {
+    border-radius: var(--card-radius);
+    overflow: hidden;
+    height: 100%;
+    min-height: 400px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.laf-map-container iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+/* ==========================================================================
+   Blog / Project Card
+   ========================================================================== */
+.laf-post-card {
+    position: relative;
+}
+
+.laf-post-category {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background: var(--laf-green);
+    color: var(--laf-white);
+    padding: 5px 15px;
+    border-radius: 50px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    z-index: 2;
+}
+
+.laf-post-date {
+    font-size: 0.85rem;
+    color: var(--laf-green);
+    font-weight: 600;
+    margin-bottom: 10px;
+    display: block;
+}
+
+/* ==========================================================================
+   Accordion Customization (Bootstrap Override)
+   ========================================================================== */
+.accordion-button:not(.collapsed) {
+    color: var(--laf-green);
+    background-color: rgba(61, 139, 55, 0.05);
+}
+
+.accordion-button:focus {
+    box-shadow: 0 0 0 0.25rem rgba(61, 139, 55, 0.25);
+}
+
+.accordion-button::after {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%231A1A2E'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%233D8B37'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+/* ==========================================================================
+   Program Pages Layout Styles
+   ========================================================================== */
+.laf-program-section-title {
+    font-family: var(--font-heading);
+    font-size: 2.5rem;
+    color: var(--laf-navy);
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.laf-program-text {
+    font-size: 1.05rem;
+    line-height: 1.8;
+    color: var(--laf-text-dark);
+    margin-bottom: 20px;
+}
+.laf-check-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 30px 0;
+}
+.laf-check-list li {
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 15px;
+    font-size: 1.05rem;
+    line-height: 1.6;
+}
+.laf-check-list li i {
+    position: absolute;
+    left: 0;
+    top: 4px;
+    color: var(--laf-orange);
+    font-size: 1.2rem;
+}
+
+/* Goal Cards */
+.laf-goal-cards-wrapper {
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+}
+.laf-goal-card {
+    flex: 1;
+    min-width: 280px;
+    border-radius: var(--card-radius);
+    padding: 30px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+.laf-goal-card.short-term {
+    background: var(--laf-orange);
+    color: var(--laf-white);
+}
+.laf-goal-card.long-term {
+    background: var(--laf-off-white);
+    color: var(--laf-text-dark);
+    border: 1px solid var(--laf-border);
+}
+.laf-goal-card h4 {
+    font-family: var(--font-heading);
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.laf-goal-card.short-term h4 { color: var(--laf-white); }
+.laf-goal-card.long-term h4 { color: var(--laf-navy); }
+
+.laf-goal-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.laf-goal-card ul li {
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 12px;
+    font-size: 0.95rem;
+}
+.laf-goal-card ul li i {
+    position: absolute;
+    left: 0;
+    top: 4px;
+}
+.laf-goal-card.short-term ul li i { color: rgba(255,255,255,0.7); }
+.laf-goal-card.long-term ul li i { color: var(--laf-purple); }
+
+/* Impact Box */
+.laf-impact-box {
+    background: var(--laf-off-white);
+    border-left: 4px solid var(--laf-green);
+    border-radius: 8px;
+    padding: 30px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+/* How to Help Box */
+.laf-help-box {
+    border: 2px dashed rgba(61,139,55,0.25);
+    background: rgba(61,139,55,0.04);
+    border-radius: var(--card-radius);
+    padding: 40px;
+    text-align: center;
+}
+.laf-help-box h3 {
+    font-family: var(--font-heading);
+    color: var(--laf-green);
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+/* ==========================================================================
+   Program Page Typography
+   ========================================================================== */
+.laf-program-section-title {
+    font-family: var(--font-heading);
+    font-size: clamp(1.6rem, 3vw, 2.4rem);
+    font-weight: 800;
+    color: var(--laf-text-dark);
+    margin-bottom: 20px;
+    padding-bottom: 16px;
+    border-bottom: 3px solid var(--laf-yellow);
+    display: inline-block;
+}
+.laf-program-text {
+    font-size: 1.05rem;
+    line-height: 1.8;
+    color: var(--laf-text-body);
+    margin-bottom: 20px;
+}
+
+/* Check List */
+.laf-check-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 40px;
+}
+.laf-check-list li {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 12px 0;
+    border-bottom: 1px solid var(--laf-border);
+    font-size: 0.975rem;
+    color: var(--laf-text-body);
+    line-height: 1.6;
+}
+.laf-check-list li:last-child { border-bottom: none; }
+.laf-check-list li i.fa-check-circle {
+    color: var(--laf-green);
+    font-size: 1.1rem;
+    margin-top: 2px;
+    flex-shrink: 0;
+}
+
+/* ==========================================================================
+   Border radius utility
+   ========================================================================== */
+.rounded-laf { border-radius: var(--card-radius) !important; }
+.shadow-laf { box-shadow: var(--shadow-card) !important; }
+
+/* ==========================================================================
+   Initiatives Cards (Homepage Floating Section)
+   ========================================================================== */
+.initiatives-card {
+    background: #fff;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.10);
+    transition: all 0.35s ease;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.initiatives-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 48px rgba(0,0,0,0.15);
+}
+.initiatives-card > img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+.initiatives-card-body {
+    padding: 28px 28px 16px;
+    flex: 1;
+}
+.initiatives-card-icon {
+    width: 48px;
+    height: 48px;
+    background: var(--laf-green);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 1.1rem;
+    margin-bottom: 16px;
+}
+.initiatives-card-title {
+    font-family: var(--font-heading);
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--laf-text-dark);
+    margin-bottom: 10px;
+}
+.initiatives-card-text {
+    font-size: 0.9rem;
+    color: var(--laf-text-muted);
+    line-height: 1.7;
+    margin: 0;
+}
+.initiatives-btn {
+    display: block;
+    text-align: center;
+    padding: 14px 24px;
+    background: var(--laf-green-deep);
+    color: #fff;
+    font-weight: 700;
+    font-size: 0.9rem;
+    text-decoration: none;
+    letter-spacing: 0.02em;
+    transition: all 0.3s;
+    margin: 0;
+}
+.initiatives-btn:hover {
+    background: var(--laf-green);
+    color: var(--laf-yellow);
+}
+
+/* ==========================================================================
+   Page Header Breadcrumb
+   ========================================================================== */
+.laf-page-header {
+    position: relative;
+    min-height: 80vh;
+    padding: 100px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--laf-green-deep);
+    text-align: center;
+    overflow: hidden;
+    margin-top: -100px;
+}
+.laf-page-header-bg {
+    position: absolute;
+    inset: 0;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+}
+.laf-page-header::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(13,59,46,0.82) 0%, rgba(13,59,46,0.55) 100%);
+    z-index: 2;
+}
+.laf-page-header-content {
+    position: relative;
+    z-index: 3;
+    color: #fff;
+}
+.laf-page-header-content h1 {
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: clamp(2rem, 5vw, 3.5rem);
+}
+.laf-breadcrumb {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.9rem;
+    color: rgba(255,255,255,0.75);
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.laf-breadcrumb a {
+    color: var(--laf-yellow);
+    text-decoration: none;
+    transition: opacity 0.2s;
+}
+.laf-breadcrumb a:hover { opacity: 0.8; }
+.laf-breadcrumb span { color: rgba(255,255,255,0.4); }
+
+
+/* ==========================================================================
+   About Page Custom Sections
+   ========================================================================== */
+
+.laf-about-circle-wrapper { position: relative; width: 100%; min-height: 500px; }
+.laf-about-circle-1, .laf-about-circle-2 { position: absolute; border-radius: 50%; overflow: hidden; box-shadow: 0 15px 40px rgba(0,0,0,0.15); border: 8px solid #fff; background: #fff; }
+.laf-about-circle-1 { width: 350px; height: 350px; top: 0; left: 0; z-index: 1; }
+.laf-about-circle-2 { width: 280px; height: 280px; bottom: 20px; right: 20px; z-index: 2; }
+.laf-about-circle-img { width: 100%; height: 100%; object-fit: cover; }
+
+.laf-feature-box-yellow { background: #fff; border-radius: 12px; padding: 30px; box-shadow: 0 10px 30px rgba(0,0,0,0.08); margin-top: 30px; }
+.laf-feature-box-yellow .icon-box { width: 50px; height: 50px; border-radius: 50%; background: var(--laf-yellow); display: flex; align-items: center; justify-content: center; font-size: 1.2rem; color: var(--laf-text-dark); margin-bottom: 20px; }
+
+.laf-pill-badge { display: inline-flex; align-items: center; padding: 6px 16px; border-radius: 20px; border: 1px solid rgba(0,0,0,0.1); font-size: 0.8rem; font-weight: 600; color: var(--laf-text-dark); background: #fff; margin-bottom: 20px; }
+.laf-pill-badge::before { content: ''; display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: var(--laf-yellow); margin-right: 8px; }
+
+.laf-mvv-card { background: var(--laf-light-gray); border-radius: 16px; padding: 40px 30px; height: 100%; position: relative; overflow: hidden; border: none; transition: transform 0.3s ease; }
+.laf-mvv-card:hover { transform: translateY(-5px); }
+.laf-mvv-icon { width: 55px; height: 55px; border-radius: 50%; background: var(--laf-yellow); display: flex; align-items: center; justify-content: center; font-size: 1.4rem; color: var(--laf-text-dark); margin-bottom: 24px; }
+.laf-mvv-card h4 { color: var(--laf-green-deep); font-weight: 800; margin-bottom: 20px; }
+.laf-mvv-card p { color: var(--laf-text-muted); font-size: 0.95rem; line-height: 1.6; margin-bottom: 30px; }
+.laf-mvv-check { display: flex; align-items: flex-start; gap: 12px; border-top: 1px solid rgba(0,0,0,0.1); padding-top: 20px; }
+.laf-mvv-check i { color: var(--laf-yellow); margin-top: 4px; }
+.laf-mvv-check span { font-size: 0.9rem; font-weight: 500; color: var(--laf-text-dark); }
+
+.laf-rect-images-wrapper { position: relative; width: 100%; min-height: 550px; }
+.laf-rect-img-1 { position: absolute; width: 75%; height: 400px; top: 0; left: 0; border-radius: 16px; object-fit: cover; z-index: 1; }
+.laf-rect-img-2 { position: absolute; width: 65%; height: 350px; bottom: 0; right: 0; border-radius: 16px; object-fit: cover; z-index: 2; border: 10px solid #fff; box-shadow: 0 20px 40px rgba(0,0,0,0.15); }
+.laf-stat-card-white { background: #fff; border-radius: 16px; padding: 40px; box-shadow: 0 10px 30px rgba(0,0,0,0.05); height: 100%; border: 1px solid rgba(0,0,0,0.05); }
+.laf-stat-card-white h2 { font-size: 3.5rem; font-weight: 900; color: var(--laf-green-deep); margin-bottom: 10px; display: flex; align-items: center; }
+.laf-stat-card-white h2 span { color: var(--laf-yellow); font-size: 2.5rem; margin-left: 5px; }
+.laf-stat-card-white h4 { font-weight: 700; color: var(--laf-green-deep); margin-bottom: 15px; }
+.laf-stat-card-white p { color: var(--laf-text-muted); font-size: 0.95rem; margin: 0; }
+
+.laf-dark-impact-section { background-color: var(--laf-green-deep); color: #fff; padding: 100px 0; position: relative; }
+.laf-dark-collage { position: relative; width: 100%; min-height: 600px; }
+.laf-dark-collage-img1 { width: 70%; height: 450px; object-fit: cover; border-radius: 16px; position: absolute; top: 50px; left: 0; z-index: 1; }
+.laf-dark-collage-img2 { width: 45%; height: 300px; object-fit: cover; border-radius: 16px; position: absolute; bottom: 0; right: 0; z-index: 2; border: 6px solid var(--laf-green-deep); }
+.laf-dark-stat-float { position: absolute; background: #fff; border-radius: 12px; padding: 20px; color: var(--laf-text-dark); box-shadow: 0 15px 30px rgba(0,0,0,0.2); }
+.laf-dark-stat-float.top-left { top: 0; left: 20px; z-index: 3; }
+.laf-dark-stat-float.bottom-left { bottom: 50px; left: -20px; z-index: 3; display: flex; align-items: center; gap: 15px; }
+.laf-dark-stat-float .icon { width: 40px; height: 40px; border-radius: 8px; background: var(--laf-yellow); display: flex; align-items: center; justify-content: center; }
+.laf-action-pill { display: inline-block; padding: 10px 24px; background: var(--laf-yellow); color: var(--laf-text-dark); font-weight: 700; border-radius: 30px; font-size: 0.9rem; margin-right: 10px; margin-bottom: 10px; }
+.laf-action-pill.outline { background: transparent; border: 1px solid rgba(255,255,255,0.3); color: #fff; }
+.laf-feature-row { display: flex; gap: 20px; align-items: flex-start; border-top: 1px solid rgba(255,255,255,0.1); border-bottom: 1px solid rgba(255,255,255,0.1); padding: 30px 0; margin: 40px 0; }
+.laf-feature-row .icon { width: 48px; height: 48px; border-radius: 50%; background: var(--laf-yellow); color: var(--laf-text-dark); display: flex; align-items: center; justify-content: center; font-size: 1.2rem; flex-shrink: 0; }

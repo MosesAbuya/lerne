@@ -1,0 +1,540 @@
+[09-Jan-2025 14:22:13 UTC] PHP Warning:  Undefined variable $connection in /home1/barrizio/public_html/includes/navbar.php on line 100
+[09-Jan-2025 14:22:13 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home1/barrizio/public_html/includes/navbar.php:100
+Stack trace:
+#0 /home1/barrizio/public_html/includes/navbar.php(100): mysqli_query(NULL, 'SELECT id, name...')
+#1 /home1/barrizio/public_html/index.php(124): include('/home1/barrizio...')
+#2 {main}
+  thrown in /home1/barrizio/public_html/includes/navbar.php on line 100
+[09-Jan-2025 14:25:13 UTC] PHP Warning:  Undefined variable $connection in /home1/barrizio/public_html/includes/navbar.php on line 100
+[09-Jan-2025 14:25:13 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home1/barrizio/public_html/includes/navbar.php:100
+Stack trace:
+#0 /home1/barrizio/public_html/includes/navbar.php(100): mysqli_query(NULL, 'SELECT id, name...')
+#1 /home1/barrizio/public_html/index.php(124): include('/home1/barrizio...')
+#2 {main}
+  thrown in /home1/barrizio/public_html/includes/navbar.php on line 100
+[09-Jan-2025 14:26:27 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, PDO given in /home1/barrizio/public_html/includes/navbar.php:100
+Stack trace:
+#0 /home1/barrizio/public_html/includes/navbar.php(100): mysqli_query(Object(PDO), 'SELECT id, name...')
+#1 /home1/barrizio/public_html/index.php(124): include('/home1/barrizio...')
+#2 {main}
+  thrown in /home1/barrizio/public_html/includes/navbar.php on line 100
+[09-Jan-2025 14:28:12 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, PDO given in /home1/barrizio/public_html/includes/navbar.php:100
+Stack trace:
+#0 /home1/barrizio/public_html/includes/navbar.php(100): mysqli_query(Object(PDO), 'SELECT id, name...')
+#1 /home1/barrizio/public_html/index.php(124): include('/home1/barrizio...')
+#2 {main}
+  thrown in /home1/barrizio/public_html/includes/navbar.php on line 100
+[09-Jan-2025 14:28:21 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, PDO given in /home1/barrizio/public_html/includes/navbar.php:100
+Stack trace:
+#0 /home1/barrizio/public_html/includes/navbar.php(100): mysqli_query(Object(PDO), 'SELECT id, name...')
+#1 /home1/barrizio/public_html/index.php(124): include('/home1/barrizio...')
+#2 {main}
+  thrown in /home1/barrizio/public_html/includes/navbar.php on line 100
+[09-Jan-2025 14:29:10 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, PDO given in /home1/barrizio/public_html/includes/navbar.php:100
+Stack trace:
+#0 /home1/barrizio/public_html/includes/navbar.php(100): mysqli_query(Object(PDO), 'SELECT id, name...')
+#1 /home1/barrizio/public_html/contact.php(47): include('/home1/barrizio...')
+#2 {main}
+  thrown in /home1/barrizio/public_html/includes/navbar.php on line 100
+[09-Jan-2025 14:30:21 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, PDO given in /home1/barrizio/public_html/includes/navbar.php:100
+Stack trace:
+#0 /home1/barrizio/public_html/includes/navbar.php(100): mysqli_query(Object(PDO), 'SELECT id, name...')
+#1 /home1/barrizio/public_html/contact.php(47): include('/home1/barrizio...')
+#2 {main}
+  thrown in /home1/barrizio/public_html/includes/navbar.php on line 100
+[09-Jan-2025 14:30:44 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, PDO given in /home1/barrizio/public_html/includes/navbar.php:100
+Stack trace:
+#0 /home1/barrizio/public_html/includes/navbar.php(100): mysqli_query(Object(PDO), 'SELECT id, name...')
+#1 /home1/barrizio/public_html/program.php(54): include('/home1/barrizio...')
+#2 {main}
+  thrown in /home1/barrizio/public_html/includes/navbar.php on line 100
+[09-Jan-2025 14:31:11 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, PDO given in /home1/barrizio/public_html/includes/navbar.php:100
+Stack trace:
+#0 /home1/barrizio/public_html/includes/navbar.php(100): mysqli_query(Object(PDO), 'SELECT id, name...')
+#1 /home1/barrizio/public_html/program.php(54): include('/home1/barrizio...')
+#2 {main}
+  thrown in /home1/barrizio/public_html/includes/navbar.php on line 100
+[09-Jan-2025 14:31:15 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, PDO given in /home1/barrizio/public_html/includes/navbar.php:100
+Stack trace:
+#0 /home1/barrizio/public_html/includes/navbar.php(100): mysqli_query(Object(PDO), 'SELECT id, name...')
+#1 /home1/barrizio/public_html/program.php(54): include('/home1/barrizio...')
+#2 {main}
+  thrown in /home1/barrizio/public_html/includes/navbar.php on line 100
+[09-Jan-2025 14:33:28 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, PDO given in /home1/barrizio/public_html/includes/navbar.php:100
+Stack trace:
+#0 /home1/barrizio/public_html/includes/navbar.php(100): mysqli_query(Object(PDO), 'SELECT id, name...')
+#1 /home1/barrizio/public_html/index.php(124): include('/home1/barrizio...')
+#2 {main}
+  thrown in /home1/barrizio/public_html/includes/navbar.php on line 100
+[09-Jan-2025 14:33:55 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, PDO given in /home1/barrizio/public_html/includes/navbar.php:100
+Stack trace:
+#0 /home1/barrizio/public_html/includes/navbar.php(100): mysqli_query(Object(PDO), 'SELECT id, name...')
+#1 /home1/barrizio/public_html/index.php(124): include('/home1/barrizio...')
+#2 {main}
+  thrown in /home1/barrizio/public_html/includes/navbar.php on line 100
+[09-Jan-2025 14:35:45 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, PDO given in /home1/barrizio/public_html/includes/navbar.php:100
+Stack trace:
+#0 /home1/barrizio/public_html/includes/navbar.php(100): mysqli_query(Object(PDO), 'SELECT id, name...')
+#1 /home1/barrizio/public_html/index.php(116): include('/home1/barrizio...')
+#2 {main}
+  thrown in /home1/barrizio/public_html/includes/navbar.php on line 100
+[09-Jan-2025 14:35:53 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, PDO given in /home1/barrizio/public_html/includes/navbar.php:100
+Stack trace:
+#0 /home1/barrizio/public_html/includes/navbar.php(100): mysqli_query(Object(PDO), 'SELECT id, name...')
+#1 /home1/barrizio/public_html/index.php(116): include('/home1/barrizio...')
+#2 {main}
+  thrown in /home1/barrizio/public_html/includes/navbar.php on line 100
+[09-Jan-2025 14:36:48 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, PDO given in /home1/barrizio/public_html/includes/navbar.php:100
+Stack trace:
+#0 /home1/barrizio/public_html/includes/navbar.php(100): mysqli_query(Object(PDO), 'SELECT id, name...')
+#1 /home1/barrizio/public_html/index.php(116): include('/home1/barrizio...')
+#2 {main}
+  thrown in /home1/barrizio/public_html/includes/navbar.php on line 100
+[09-Jan-2025 14:37:02 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, PDO given in /home1/barrizio/public_html/includes/navbar.php:100
+Stack trace:
+#0 /home1/barrizio/public_html/includes/navbar.php(100): mysqli_query(Object(PDO), 'SELECT id, name...')
+#1 /home1/barrizio/public_html/index.php(116): include('/home1/barrizio...')
+#2 {main}
+  thrown in /home1/barrizio/public_html/includes/navbar.php on line 100
+[09-Jan-2025 14:37:47 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, PDO given in /home1/barrizio/public_html/includes/navbar.php:100
+Stack trace:
+#0 /home1/barrizio/public_html/includes/navbar.php(100): mysqli_query(Object(PDO), 'SELECT id, name...')
+#1 /home1/barrizio/public_html/index.php(109): include('/home1/barrizio...')
+#2 {main}
+  thrown in /home1/barrizio/public_html/includes/navbar.php on line 100
+[09-Jan-2025 14:38:02 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, PDO given in /home1/barrizio/public_html/includes/navbar.php:100
+Stack trace:
+#0 /home1/barrizio/public_html/includes/navbar.php(100): mysqli_query(Object(PDO), 'SELECT id, name...')
+#1 /home1/barrizio/public_html/index.php(109): include('/home1/barrizio...')
+#2 {main}
+  thrown in /home1/barrizio/public_html/includes/navbar.php on line 100
+[09-Jan-2025 14:38:35 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, PDO given in /home1/barrizio/public_html/includes/navbar.php:100
+Stack trace:
+#0 /home1/barrizio/public_html/includes/navbar.php(100): mysqli_query(Object(PDO), 'SELECT id, name...')
+#1 /home1/barrizio/public_html/index.php(116): include('/home1/barrizio...')
+#2 {main}
+  thrown in /home1/barrizio/public_html/includes/navbar.php on line 100
+[09-Jan-2025 14:38:49 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, PDO given in /home1/barrizio/public_html/includes/navbar.php:100
+Stack trace:
+#0 /home1/barrizio/public_html/includes/navbar.php(100): mysqli_query(Object(PDO), 'SELECT id, name...')
+#1 /home1/barrizio/public_html/index.php(116): include('/home1/barrizio...')
+#2 {main}
+  thrown in /home1/barrizio/public_html/includes/navbar.php on line 100
+[09-Jan-2025 14:43:38 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, PDO given in /home1/barrizio/public_html/includes/navbar.php:100
+Stack trace:
+#0 /home1/barrizio/public_html/includes/navbar.php(100): mysqli_query(Object(PDO), 'SELECT id, name...')
+#1 /home1/barrizio/public_html/index.php(121): include('/home1/barrizio...')
+#2 {main}
+  thrown in /home1/barrizio/public_html/includes/navbar.php on line 100
+[09-Jan-2025 14:46:26 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, PDO given in /home1/barrizio/public_html/includes/navbar.php:100
+Stack trace:
+#0 /home1/barrizio/public_html/includes/navbar.php(100): mysqli_query(Object(PDO), 'SELECT id, name...')
+#1 /home1/barrizio/public_html/contact.php(47): include('/home1/barrizio...')
+#2 {main}
+  thrown in /home1/barrizio/public_html/includes/navbar.php on line 100
+[09-Jan-2025 14:50:43 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, PDO given in /home1/barrizio/public_html/includes/navbar.php:11
+Stack trace:
+#0 /home1/barrizio/public_html/includes/navbar.php(11): mysqli_query(Object(PDO), 'SELECT id, name...')
+#1 /home1/barrizio/public_html/index.php(121): include('/home1/barrizio...')
+#2 {main}
+  thrown in /home1/barrizio/public_html/includes/navbar.php on line 11
+[09-Jan-2025 14:55:03 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, PDO given in /home1/barrizio/public_html/includes/navbar.php:7
+Stack trace:
+#0 /home1/barrizio/public_html/includes/navbar.php(7): mysqli_query(Object(PDO), 'SELECT id, name...')
+#1 /home1/barrizio/public_html/index.php(121): include('/home1/barrizio...')
+#2 {main}
+  thrown in /home1/barrizio/public_html/includes/navbar.php on line 7
+[09-Jan-2025 15:02:31 UTC] PHP Warning:  Undefined variable $user in /home1/barrizio/public_html/profile.php on line 129
+[09-Jan-2025 15:02:31 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/barrizio/public_html/profile.php on line 129
+[09-Jan-2025 15:02:31 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home1/barrizio/public_html/profile.php on line 129
+[09-Jan-2025 15:02:31 UTC] PHP Warning:  Undefined variable $user in /home1/barrizio/public_html/profile.php on line 130
+[09-Jan-2025 15:02:31 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/barrizio/public_html/profile.php on line 130
+[09-Jan-2025 15:02:31 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home1/barrizio/public_html/profile.php on line 130
+[09-Jan-2025 15:02:31 UTC] PHP Warning:  Undefined variable $user in /home1/barrizio/public_html/profile.php on line 138
+[09-Jan-2025 15:02:31 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/barrizio/public_html/profile.php on line 138
+[09-Jan-2025 15:02:31 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home1/barrizio/public_html/profile.php on line 138
+[09-Jan-2025 15:02:31 UTC] PHP Warning:  Undefined variable $user in /home1/barrizio/public_html/profile.php on line 146
+[09-Jan-2025 15:02:31 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/barrizio/public_html/profile.php on line 146
+[09-Jan-2025 15:02:31 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home1/barrizio/public_html/profile.php on line 146
+[09-Jan-2025 15:02:31 UTC] PHP Warning:  Undefined variable $user in /home1/barrizio/public_html/profile.php on line 154
+[09-Jan-2025 15:02:31 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/barrizio/public_html/profile.php on line 154
+[09-Jan-2025 15:02:31 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home1/barrizio/public_html/profile.php on line 154
+[09-Jan-2025 15:02:31 UTC] PHP Warning:  Undefined variable $user in /home1/barrizio/public_html/profile.php on line 175
+[09-Jan-2025 15:02:31 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/barrizio/public_html/profile.php on line 175
+[09-Jan-2025 15:02:31 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home1/barrizio/public_html/profile.php on line 175
+[09-Jan-2025 15:02:31 UTC] PHP Warning:  Undefined variable $user in /home1/barrizio/public_html/profile.php on line 178
+[09-Jan-2025 15:02:31 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/barrizio/public_html/profile.php on line 178
+[09-Jan-2025 15:02:31 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home1/barrizio/public_html/profile.php on line 178
+[09-Jan-2025 15:02:31 UTC] PHP Warning:  Undefined variable $user in /home1/barrizio/public_html/profile.php on line 181
+[09-Jan-2025 15:02:31 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/barrizio/public_html/profile.php on line 181
+[09-Jan-2025 15:02:31 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home1/barrizio/public_html/profile.php on line 181
+[09-Jan-2025 15:02:31 UTC] PHP Warning:  Undefined variable $user in /home1/barrizio/public_html/profile.php on line 183
+[09-Jan-2025 15:02:31 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/barrizio/public_html/profile.php on line 183
+[09-Jan-2025 15:02:31 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home1/barrizio/public_html/profile.php on line 183
+[09-Jan-2025 15:02:31 UTC] PHP Warning:  Undefined variable $user in /home1/barrizio/public_html/profile.php on line 186
+[09-Jan-2025 15:02:31 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/barrizio/public_html/profile.php on line 186
+[09-Jan-2025 15:02:31 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home1/barrizio/public_html/profile.php on line 186
+[09-Jan-2025 15:02:50 UTC] PHP Warning:  Undefined variable $user in /home1/barrizio/public_html/profile.php on line 129
+[09-Jan-2025 15:02:50 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/barrizio/public_html/profile.php on line 129
+[09-Jan-2025 15:02:50 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home1/barrizio/public_html/profile.php on line 129
+[09-Jan-2025 15:02:50 UTC] PHP Warning:  Undefined variable $user in /home1/barrizio/public_html/profile.php on line 130
+[09-Jan-2025 15:02:50 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/barrizio/public_html/profile.php on line 130
+[09-Jan-2025 15:02:50 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home1/barrizio/public_html/profile.php on line 130
+[09-Jan-2025 15:02:50 UTC] PHP Warning:  Undefined variable $user in /home1/barrizio/public_html/profile.php on line 138
+[09-Jan-2025 15:02:50 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/barrizio/public_html/profile.php on line 138
+[09-Jan-2025 15:02:50 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home1/barrizio/public_html/profile.php on line 138
+[09-Jan-2025 15:02:50 UTC] PHP Warning:  Undefined variable $user in /home1/barrizio/public_html/profile.php on line 146
+[09-Jan-2025 15:02:50 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/barrizio/public_html/profile.php on line 146
+[09-Jan-2025 15:02:50 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home1/barrizio/public_html/profile.php on line 146
+[09-Jan-2025 15:02:50 UTC] PHP Warning:  Undefined variable $user in /home1/barrizio/public_html/profile.php on line 154
+[09-Jan-2025 15:02:50 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/barrizio/public_html/profile.php on line 154
+[09-Jan-2025 15:02:50 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home1/barrizio/public_html/profile.php on line 154
+[09-Jan-2025 15:02:50 UTC] PHP Warning:  Undefined variable $user in /home1/barrizio/public_html/profile.php on line 175
+[09-Jan-2025 15:02:50 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/barrizio/public_html/profile.php on line 175
+[09-Jan-2025 15:02:50 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home1/barrizio/public_html/profile.php on line 175
+[09-Jan-2025 15:02:50 UTC] PHP Warning:  Undefined variable $user in /home1/barrizio/public_html/profile.php on line 178
+[09-Jan-2025 15:02:50 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/barrizio/public_html/profile.php on line 178
+[09-Jan-2025 15:02:50 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home1/barrizio/public_html/profile.php on line 178
+[09-Jan-2025 15:02:50 UTC] PHP Warning:  Undefined variable $user in /home1/barrizio/public_html/profile.php on line 181
+[09-Jan-2025 15:02:50 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/barrizio/public_html/profile.php on line 181
+[09-Jan-2025 15:02:50 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home1/barrizio/public_html/profile.php on line 181
+[09-Jan-2025 15:02:50 UTC] PHP Warning:  Undefined variable $user in /home1/barrizio/public_html/profile.php on line 183
+[09-Jan-2025 15:02:50 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/barrizio/public_html/profile.php on line 183
+[09-Jan-2025 15:02:50 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home1/barrizio/public_html/profile.php on line 183
+[09-Jan-2025 15:02:50 UTC] PHP Warning:  Undefined variable $user in /home1/barrizio/public_html/profile.php on line 186
+[09-Jan-2025 15:02:50 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/barrizio/public_html/profile.php on line 186
+[09-Jan-2025 15:02:50 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home1/barrizio/public_html/profile.php on line 186
+[09-Jan-2025 15:13:57 UTC] PHP Warning:  Undefined variable $user in /home1/barrizio/public_html/profile.php on line 129
+[09-Jan-2025 15:13:57 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/barrizio/public_html/profile.php on line 129
+[09-Jan-2025 15:13:57 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home1/barrizio/public_html/profile.php on line 129
+[09-Jan-2025 15:13:57 UTC] PHP Warning:  Undefined variable $user in /home1/barrizio/public_html/profile.php on line 130
+[09-Jan-2025 15:13:57 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/barrizio/public_html/profile.php on line 130
+[09-Jan-2025 15:13:57 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home1/barrizio/public_html/profile.php on line 130
+[09-Jan-2025 15:13:57 UTC] PHP Warning:  Undefined variable $user in /home1/barrizio/public_html/profile.php on line 138
+[09-Jan-2025 15:13:57 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/barrizio/public_html/profile.php on line 138
+[09-Jan-2025 15:13:57 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home1/barrizio/public_html/profile.php on line 138
+[09-Jan-2025 15:13:57 UTC] PHP Warning:  Undefined variable $user in /home1/barrizio/public_html/profile.php on line 146
+[09-Jan-2025 15:13:57 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/barrizio/public_html/profile.php on line 146
+[09-Jan-2025 15:13:57 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home1/barrizio/public_html/profile.php on line 146
+[09-Jan-2025 15:13:57 UTC] PHP Warning:  Undefined variable $user in /home1/barrizio/public_html/profile.php on line 154
+[09-Jan-2025 15:13:57 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/barrizio/public_html/profile.php on line 154
+[09-Jan-2025 15:13:57 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home1/barrizio/public_html/profile.php on line 154
+[09-Jan-2025 15:13:57 UTC] PHP Warning:  Undefined variable $user in /home1/barrizio/public_html/profile.php on line 175
+[09-Jan-2025 15:13:57 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/barrizio/public_html/profile.php on line 175
+[09-Jan-2025 15:13:57 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home1/barrizio/public_html/profile.php on line 175
+[09-Jan-2025 15:13:57 UTC] PHP Warning:  Undefined variable $user in /home1/barrizio/public_html/profile.php on line 178
+[09-Jan-2025 15:13:57 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/barrizio/public_html/profile.php on line 178
+[09-Jan-2025 15:13:57 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home1/barrizio/public_html/profile.php on line 178
+[09-Jan-2025 15:13:57 UTC] PHP Warning:  Undefined variable $user in /home1/barrizio/public_html/profile.php on line 181
+[09-Jan-2025 15:13:57 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/barrizio/public_html/profile.php on line 181
+[09-Jan-2025 15:13:57 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home1/barrizio/public_html/profile.php on line 181
+[09-Jan-2025 15:13:57 UTC] PHP Warning:  Undefined variable $user in /home1/barrizio/public_html/profile.php on line 183
+[09-Jan-2025 15:13:57 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/barrizio/public_html/profile.php on line 183
+[09-Jan-2025 15:13:57 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home1/barrizio/public_html/profile.php on line 183
+[09-Jan-2025 15:13:57 UTC] PHP Warning:  Undefined variable $user in /home1/barrizio/public_html/profile.php on line 186
+[09-Jan-2025 15:13:57 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/barrizio/public_html/profile.php on line 186
+[09-Jan-2025 15:13:57 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home1/barrizio/public_html/profile.php on line 186
+[23-May-2025 10:29:14 UTC] DB Error: SQLSTATE[HY000] [1045] Access denied for user 'username'@'localhost' (using password: YES)
+[23-May-2025 10:31:49 UTC] DB Error: SQLSTATE[HY000] [1045] Access denied for user 'username'@'localhost' (using password: YES)
+[23-May-2025 10:33:15 UTC] DB Error: SQLSTATE[HY000] [1045] Access denied for user 'username'@'localhost' (using password: YES)
+[23-May-2025 10:37:22 UTC] DB Error: SQLSTATE[HY000] [1045] Access denied for user 'username'@'localhost' (using password: YES)
+[23-May-2025 10:37:43 UTC] DB Error: SQLSTATE[HY000] [1045] Access denied for user 'username'@'localhost' (using password: YES)
+[23-May-2025 10:40:36 UTC] DB Error: SQLSTATE[HY000] [1045] Access denied for user 'username'@'localhost' (using password: YES)
+[23-May-2025 10:40:56 UTC] DB Error: SQLSTATE[HY000] [1045] Access denied for user 'username'@'localhost' (using password: YES)
+[23-May-2025 10:43:54 UTC] DB Error: SQLSTATE[HY000] [1045] Access denied for user 'username'@'localhost' (using password: YES)
+[23-May-2025 10:44:14 UTC] DB Error: SQLSTATE[HY000] [1045] Access denied for user 'username'@'localhost' (using password: YES)
+[23-May-2025 10:45:55 UTC] DB Error: SQLSTATE[HY000] [1045] Access denied for user 'username'@'localhost' (using password: YES)
+[23-May-2025 10:47:14 UTC] DB Error: SQLSTATE[HY000] [1045] Access denied for user 'username'@'localhost' (using password: YES)
+[23-May-2025 10:47:30 UTC] DB Error: SQLSTATE[HY000] [1045] Access denied for user 'username'@'localhost' (using password: YES)
+[23-May-2025 13:59:38 UTC] PHP Warning:  Undefined variable $transaction_id in /home3/barrizio/public_html/webhook.php on line 134
+[23-May-2025 14:13:56 UTC] DB Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'package' in 'INSERT INTO'
+[23-May-2025 14:13:56 UTC] DB Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'package' in 'INSERT INTO'
+[23-May-2025 14:18:12 UTC] DB Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'package' in 'INSERT INTO'
+[23-May-2025 14:18:12 UTC] DB Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'package' in 'INSERT INTO'
+[23-May-2025 14:22:09 UTC] DB Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'package' in 'INSERT INTO'
+[23-May-2025 14:22:09 UTC] DB Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'package' in 'INSERT INTO'
+[23-May-2025 14:25:19 UTC] DB Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'package' in 'INSERT INTO'
+[23-May-2025 14:25:19 UTC] DB Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'package' in 'INSERT INTO'
+[23-May-2025 14:28:27 UTC] DB Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'package' in 'INSERT INTO'
+[23-May-2025 14:28:27 UTC] DB Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'package' in 'INSERT INTO'
+[23-May-2025 14:31:51 UTC] DB Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'package' in 'INSERT INTO'
+[23-May-2025 14:31:51 UTC] DB Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'package' in 'INSERT INTO'
+[23-May-2025 15:50:12 UTC] DB Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'package' in 'INSERT INTO'
+[23-May-2025 15:50:12 UTC] DB Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'package' in 'INSERT INTO'
+[23-May-2025 16:39:21 UTC] DB Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'package' in 'INSERT INTO'
+[23-May-2025 16:39:21 UTC] DB Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'package' in 'INSERT INTO'
+[23-May-2025 17:29:55 UTC] DB Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'package' in 'INSERT INTO'
+[23-May-2025 17:29:55 UTC] DB Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'package' in 'INSERT INTO'
+[23-May-2025 18:20:58 UTC] DB Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'package' in 'INSERT INTO'
+[23-May-2025 18:20:59 UTC] DB Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'package' in 'INSERT INTO'
+[23-May-2025 18:37:13 UTC] DB Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'package' in 'INSERT INTO'
+[23-May-2025 18:55:41 UTC] DB Error: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`barrizio_charity_db`.`subscriptions`, CONSTRAINT `fk_transaction_id` FOREIGN KEY (`transaction_id`) REFERENCES `payments` (`transaction_id`) ON DELETE SET NULL ON UPDATE CASCADE)
+[23-May-2025 19:00:08 UTC] DB Error: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`barrizio_charity_db`.`subscriptions`, CONSTRAINT `fk_transaction_id` FOREIGN KEY (`transaction_id`) REFERENCES `payments` (`transaction_id`) ON DELETE SET NULL ON UPDATE CASCADE)
+[23-May-2025 19:15:01 UTC] DB Error: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`barrizio_charity_db`.`subscriptions`, CONSTRAINT `fk_transaction_id` FOREIGN KEY (`transaction_id`) REFERENCES `payments` (`transaction_id`) ON DELETE SET NULL ON UPDATE CASCADE)
+[23-May-2025 19:17:44 UTC] DB Error: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`barrizio_charity_db`.`subscriptions`, CONSTRAINT `fk_transaction_id` FOREIGN KEY (`transaction_id`) REFERENCES `payments` (`transaction_id`) ON DELETE SET NULL ON UPDATE CASCADE)
+[23-May-2025 19:21:05 UTC] DB Error: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`barrizio_charity_db`.`subscriptions`, CONSTRAINT `fk_transaction_id` FOREIGN KEY (`transaction_id`) REFERENCES `payments` (`transaction_id`) ON DELETE SET NULL ON UPDATE CASCADE)
+[23-May-2025 19:21:55 UTC] DB Error: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`barrizio_charity_db`.`subscriptions`, CONSTRAINT `fk_transaction_id` FOREIGN KEY (`transaction_id`) REFERENCES `payments` (`transaction_id`) ON DELETE SET NULL ON UPDATE CASCADE)
+[29-May-2025 06:48:17 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, PDO given in /home3/barrizio/public_html/template.php:72
+Stack trace:
+#0 /home3/barrizio/public_html/template.php(72): mysqli_query(Object(PDO), 'SELECT * FROM e...')
+#1 {main}
+  thrown in /home3/barrizio/public_html/template.php on line 72
+[29-May-2025 07:43:12 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home3/barrizio/public_html/profile.php on line 47
+[29-May-2025 07:43:12 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/barrizio/public_html/profile.php:1) in /home3/barrizio/public_html/profile.php on line 51
+[29-May-2025 07:43:19 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home3/barrizio/public_html/profile.php on line 47
+[29-May-2025 07:43:19 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/barrizio/public_html/profile.php:1) in /home3/barrizio/public_html/profile.php on line 51
+[29-May-2025 07:44:31 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home3/barrizio/public_html/profile.php on line 52
+[29-May-2025 07:44:31 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/barrizio/public_html/profile.php:1) in /home3/barrizio/public_html/profile.php on line 56
+[29-May-2025 11:44:26 UTC] PHP Warning:  Undefined array key "subscription_code" in /home3/barrizio/public_html/profile.php on line 390
+[29-May-2025 11:47:02 UTC] PHP Warning:  Undefined array key "subscription_code" in /home3/barrizio/public_html/profile.php on line 392
+[16-Sep-2025 05:00:02 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: MySQL server has gone away in /home3/barrizio/public_html/index.php:425
+Stack trace:
+#0 /home3/barrizio/public_html/index.php(425): mysqli_query(Object(mysqli), 'SELECT * FROM e...')
+#1 {main}
+  thrown in /home3/barrizio/public_html/index.php on line 425
+[16-Sep-2025 22:37:15 UTC] PHP Warning:  Undefined variable $connection in /home3/barrizio/public_html/includes/navbar.php on line 8
+[16-Sep-2025 22:37:15 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home3/barrizio/public_html/includes/navbar.php:8
+Stack trace:
+#0 /home3/barrizio/public_html/index.php(124): include()
+#1 {main}
+  thrown in /home3/barrizio/public_html/includes/navbar.php on line 8
+[27-Sep-2025 23:20:11 UTC] PHP Warning:  Undefined variable $connection in /home3/barrizio/public_html/includes/navbar.php on line 8
+[27-Sep-2025 23:20:11 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home3/barrizio/public_html/includes/navbar.php:8
+Stack trace:
+#0 /home3/barrizio/public_html/index.php(124): include()
+#1 {main}
+  thrown in /home3/barrizio/public_html/includes/navbar.php on line 8
+[16-Oct-2025 06:07:56 UTC] PHP Warning:  Undefined variable $connection in /home3/barrizio/public_html/includes/navbar.php on line 8
+[16-Oct-2025 06:07:56 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home3/barrizio/public_html/includes/navbar.php:8
+Stack trace:
+#0 /home3/barrizio/public_html/index.php(124): include()
+#1 {main}
+  thrown in /home3/barrizio/public_html/includes/navbar.php on line 8
+[16-Oct-2025 06:07:57 UTC] PHP Warning:  Undefined variable $connection in /home3/barrizio/public_html/includes/navbar.php on line 8
+[16-Oct-2025 06:07:57 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home3/barrizio/public_html/includes/navbar.php:8
+Stack trace:
+#0 /home3/barrizio/public_html/index.php(124): include()
+#1 {main}
+  thrown in /home3/barrizio/public_html/includes/navbar.php on line 8
+[16-Oct-2025 06:07:58 UTC] PHP Warning:  Undefined variable $connection in /home3/barrizio/public_html/includes/navbar.php on line 8
+[16-Oct-2025 06:07:58 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home3/barrizio/public_html/includes/navbar.php:8
+Stack trace:
+#0 /home3/barrizio/public_html/index.php(124): include()
+#1 {main}
+  thrown in /home3/barrizio/public_html/includes/navbar.php on line 8
+[16-Oct-2025 06:07:58 UTC] PHP Warning:  Undefined variable $connection in /home3/barrizio/public_html/includes/navbar.php on line 8
+[16-Oct-2025 06:07:58 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home3/barrizio/public_html/includes/navbar.php:8
+Stack trace:
+#0 /home3/barrizio/public_html/index.php(124): include()
+#1 {main}
+  thrown in /home3/barrizio/public_html/includes/navbar.php on line 8
+[16-Oct-2025 08:04:40 UTC] PHP Warning:  Undefined variable $connection in /home3/barrizio/public_html/includes/navbar.php on line 8
+[16-Oct-2025 08:04:40 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home3/barrizio/public_html/includes/navbar.php:8
+Stack trace:
+#0 /home3/barrizio/public_html/index.php(124): include()
+#1 {main}
+  thrown in /home3/barrizio/public_html/includes/navbar.php on line 8
+[16-Oct-2025 21:14:03 UTC] PHP Warning:  Undefined variable $connection in /home3/barrizio/public_html/includes/navbar.php on line 8
+[16-Oct-2025 21:14:03 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home3/barrizio/public_html/includes/navbar.php:8
+Stack trace:
+#0 /home3/barrizio/public_html/index.php(124): include()
+#1 {main}
+  thrown in /home3/barrizio/public_html/includes/navbar.php on line 8
+[19-Oct-2025 01:54:17 UTC] PHP Warning:  Undefined variable $connection in /home3/barrizio/public_html/includes/navbar.php on line 8
+[19-Oct-2025 01:54:17 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home3/barrizio/public_html/includes/navbar.php:8
+Stack trace:
+#0 /home3/barrizio/public_html/index.php(124): include()
+#1 {main}
+  thrown in /home3/barrizio/public_html/includes/navbar.php on line 8
+[19-Oct-2025 01:54:24 UTC] PHP Warning:  Undefined variable $connection in /home3/barrizio/public_html/includes/navbar.php on line 8
+[19-Oct-2025 01:54:24 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home3/barrizio/public_html/includes/navbar.php:8
+Stack trace:
+#0 /home3/barrizio/public_html/index.php(124): include()
+#1 {main}
+  thrown in /home3/barrizio/public_html/includes/navbar.php on line 8
+[19-Oct-2025 01:54:31 UTC] PHP Warning:  Undefined variable $connection in /home3/barrizio/public_html/includes/navbar.php on line 8
+[19-Oct-2025 01:54:31 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home3/barrizio/public_html/includes/navbar.php:8
+Stack trace:
+#0 /home3/barrizio/public_html/index.php(124): include()
+#1 {main}
+  thrown in /home3/barrizio/public_html/includes/navbar.php on line 8
+[19-Oct-2025 01:54:39 UTC] PHP Warning:  Undefined variable $connection in /home3/barrizio/public_html/includes/navbar.php on line 8
+[19-Oct-2025 01:54:39 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home3/barrizio/public_html/includes/navbar.php:8
+Stack trace:
+#0 /home3/barrizio/public_html/index.php(124): include()
+#1 {main}
+  thrown in /home3/barrizio/public_html/includes/navbar.php on line 8
+[19-Oct-2025 01:54:47 UTC] PHP Warning:  Undefined variable $connection in /home3/barrizio/public_html/includes/navbar.php on line 8
+[19-Oct-2025 01:54:47 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home3/barrizio/public_html/includes/navbar.php:8
+Stack trace:
+#0 /home3/barrizio/public_html/index.php(124): include()
+#1 {main}
+  thrown in /home3/barrizio/public_html/includes/navbar.php on line 8
+[14-Nov-2025 13:50:47 UTC] PHP Warning:  Undefined variable $connection in /home3/barrizio/public_html/includes/navbar.php on line 8
+[14-Nov-2025 13:50:47 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home3/barrizio/public_html/includes/navbar.php:8
+Stack trace:
+#0 /home3/barrizio/public_html/index.php(124): include()
+#1 {main}
+  thrown in /home3/barrizio/public_html/includes/navbar.php on line 8
+[14-Nov-2025 13:50:51 UTC] PHP Warning:  Undefined variable $connection in /home3/barrizio/public_html/includes/navbar.php on line 8
+[14-Nov-2025 13:50:51 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home3/barrizio/public_html/includes/navbar.php:8
+Stack trace:
+#0 /home3/barrizio/public_html/index.php(124): include()
+#1 {main}
+  thrown in /home3/barrizio/public_html/includes/navbar.php on line 8
+[16-Nov-2025 12:15:09 UTC] PHP Warning:  Undefined variable $connection in /home3/barrizio/public_html/includes/navbar.php on line 8
+[16-Nov-2025 12:15:09 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home3/barrizio/public_html/includes/navbar.php:8
+Stack trace:
+#0 /home3/barrizio/public_html/index.php(124): include()
+#1 {main}
+  thrown in /home3/barrizio/public_html/includes/navbar.php on line 8
+[16-Nov-2025 21:52:39 UTC] PHP Warning:  Undefined variable $connection in /home3/barrizio/public_html/includes/navbar.php on line 8
+[16-Nov-2025 21:52:39 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home3/barrizio/public_html/includes/navbar.php:8
+Stack trace:
+#0 /home3/barrizio/public_html/index.php(124): include()
+#1 {main}
+  thrown in /home3/barrizio/public_html/includes/navbar.php on line 8
+[18-Nov-2025 23:27:20 UTC] PHP Warning:  Undefined variable $connection in /home3/barrizio/public_html/includes/navbar.php on line 8
+[18-Nov-2025 23:27:20 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home3/barrizio/public_html/includes/navbar.php:8
+Stack trace:
+#0 /home3/barrizio/public_html/index.php(124): include()
+#1 {main}
+  thrown in /home3/barrizio/public_html/includes/navbar.php on line 8
+[18-Nov-2025 23:27:43 UTC] PHP Warning:  Undefined variable $connection in /home3/barrizio/public_html/includes/navbar.php on line 8
+[18-Nov-2025 23:27:43 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home3/barrizio/public_html/includes/navbar.php:8
+Stack trace:
+#0 /home3/barrizio/public_html/index.php(124): include()
+#1 {main}
+  thrown in /home3/barrizio/public_html/includes/navbar.php on line 8
+[18-Nov-2025 23:27:48 UTC] PHP Warning:  Undefined variable $connection in /home3/barrizio/public_html/includes/navbar.php on line 8
+[18-Nov-2025 23:27:48 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home3/barrizio/public_html/includes/navbar.php:8
+Stack trace:
+#0 /home3/barrizio/public_html/index.php(124): include()
+#1 {main}
+  thrown in /home3/barrizio/public_html/includes/navbar.php on line 8
+[18-Nov-2025 23:27:59 UTC] PHP Warning:  Undefined variable $connection in /home3/barrizio/public_html/includes/navbar.php on line 8
+[18-Nov-2025 23:27:59 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home3/barrizio/public_html/includes/navbar.php:8
+Stack trace:
+#0 /home3/barrizio/public_html/index.php(124): include()
+#1 {main}
+  thrown in /home3/barrizio/public_html/includes/navbar.php on line 8
+[18-Nov-2025 23:28:00 UTC] PHP Warning:  Undefined variable $connection in /home3/barrizio/public_html/includes/navbar.php on line 8
+[18-Nov-2025 23:28:00 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home3/barrizio/public_html/includes/navbar.php:8
+Stack trace:
+#0 /home3/barrizio/public_html/index.php(124): include()
+#1 {main}
+  thrown in /home3/barrizio/public_html/includes/navbar.php on line 8
+[27-Nov-2025 00:04:23 UTC] PHP Warning:  Undefined variable $connection in /home3/barrizio/public_html/includes/navbar.php on line 8
+[27-Nov-2025 00:04:23 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home3/barrizio/public_html/includes/navbar.php:8
+Stack trace:
+#0 /home3/barrizio/public_html/signup.php(116): include()
+#1 {main}
+  thrown in /home3/barrizio/public_html/includes/navbar.php on line 8
+[30-Nov-2025 10:14:48 UTC] PHP Warning:  Undefined variable $connection in /home3/barrizio/public_html/includes/navbar.php on line 8
+[30-Nov-2025 10:14:48 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home3/barrizio/public_html/includes/navbar.php:8
+Stack trace:
+#0 /home3/barrizio/public_html/index.php(124): include()
+#1 {main}
+  thrown in /home3/barrizio/public_html/includes/navbar.php on line 8
+[01-Dec-2025 00:55:54 UTC] PHP Warning:  Undefined variable $connection in /home3/barrizio/public_html/includes/navbar.php on line 8
+[01-Dec-2025 00:55:54 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home3/barrizio/public_html/includes/navbar.php:8
+Stack trace:
+#0 /home3/barrizio/public_html/index.php(124): include()
+#1 {main}
+  thrown in /home3/barrizio/public_html/includes/navbar.php on line 8
+[01-Dec-2025 00:56:03 UTC] PHP Warning:  Undefined variable $connection in /home3/barrizio/public_html/includes/navbar.php on line 8
+[01-Dec-2025 00:56:03 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home3/barrizio/public_html/includes/navbar.php:8
+Stack trace:
+#0 /home3/barrizio/public_html/index.php(124): include()
+#1 {main}
+  thrown in /home3/barrizio/public_html/includes/navbar.php on line 8
+[01-Dec-2025 00:56:13 UTC] PHP Warning:  Undefined variable $connection in /home3/barrizio/public_html/includes/navbar.php on line 8
+[01-Dec-2025 00:56:13 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home3/barrizio/public_html/includes/navbar.php:8
+Stack trace:
+#0 /home3/barrizio/public_html/index.php(124): include()
+#1 {main}
+  thrown in /home3/barrizio/public_html/includes/navbar.php on line 8
+[11-Dec-2025 23:50:45 UTC] PHP Warning:  Undefined variable $connection in /home3/barrizio/public_html/includes/navbar.php on line 8
+[11-Dec-2025 23:50:45 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home3/barrizio/public_html/includes/navbar.php:8
+Stack trace:
+#0 /home3/barrizio/public_html/index.php(124): include()
+#1 {main}
+  thrown in /home3/barrizio/public_html/includes/navbar.php on line 8
+[11-Dec-2025 23:50:57 UTC] PHP Warning:  Undefined variable $connection in /home3/barrizio/public_html/includes/navbar.php on line 8
+[11-Dec-2025 23:50:57 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home3/barrizio/public_html/includes/navbar.php:8
+Stack trace:
+#0 /home3/barrizio/public_html/index.php(124): include()
+#1 {main}
+  thrown in /home3/barrizio/public_html/includes/navbar.php on line 8
+[11-Dec-2025 23:50:58 UTC] PHP Warning:  Undefined variable $connection in /home3/barrizio/public_html/includes/navbar.php on line 8
+[11-Dec-2025 23:50:58 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home3/barrizio/public_html/includes/navbar.php:8
+Stack trace:
+#0 /home3/barrizio/public_html/index.php(124): include()
+#1 {main}
+  thrown in /home3/barrizio/public_html/includes/navbar.php on line 8
+[15-Dec-2025 11:35:56 UTC] PHP Warning:  Undefined variable $connection in /home3/barrizio/public_html/includes/navbar.php on line 8
+[15-Dec-2025 11:35:56 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home3/barrizio/public_html/includes/navbar.php:8
+Stack trace:
+#0 /home3/barrizio/public_html/index.php(124): include()
+#1 {main}
+  thrown in /home3/barrizio/public_html/includes/navbar.php on line 8
+[15-Dec-2025 11:35:56 UTC] PHP Warning:  Undefined variable $connection in /home3/barrizio/public_html/includes/navbar.php on line 8
+[15-Dec-2025 11:35:56 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home3/barrizio/public_html/includes/navbar.php:8
+Stack trace:
+#0 /home3/barrizio/public_html/index.php(124): include()
+#1 {main}
+  thrown in /home3/barrizio/public_html/includes/navbar.php on line 8
+[18-Dec-2025 16:46:57 UTC] PHP Warning:  Undefined variable $connection in /home3/barrizio/public_html/includes/navbar.php on line 8
+[18-Dec-2025 16:46:57 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home3/barrizio/public_html/includes/navbar.php:8
+Stack trace:
+#0 /home3/barrizio/public_html/index.php(124): include()
+#1 {main}
+  thrown in /home3/barrizio/public_html/includes/navbar.php on line 8
+[20-Dec-2025 05:57:43 UTC] PHP Warning:  Undefined variable $connection in /home3/barrizio/public_html/includes/navbar.php on line 8
+[20-Dec-2025 05:57:43 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home3/barrizio/public_html/includes/navbar.php:8
+Stack trace:
+#0 /home3/barrizio/public_html/index.php(124): include()
+#1 {main}
+  thrown in /home3/barrizio/public_html/includes/navbar.php on line 8
+[21-Dec-2025 01:06:44 UTC] PHP Warning:  Undefined variable $connection in /home3/barrizio/public_html/includes/navbar.php on line 8
+[21-Dec-2025 01:06:44 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home3/barrizio/public_html/includes/navbar.php:8
+Stack trace:
+#0 /home3/barrizio/public_html/index.php(124): include()
+#1 {main}
+  thrown in /home3/barrizio/public_html/includes/navbar.php on line 8
+[21-Dec-2025 01:06:49 UTC] PHP Warning:  Undefined variable $connection in /home3/barrizio/public_html/includes/navbar.php on line 8
+[21-Dec-2025 01:06:49 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home3/barrizio/public_html/includes/navbar.php:8
+Stack trace:
+#0 /home3/barrizio/public_html/index.php(124): include()
+#1 {main}
+  thrown in /home3/barrizio/public_html/includes/navbar.php on line 8
+[21-Dec-2025 01:06:49 UTC] PHP Warning:  Undefined variable $connection in /home3/barrizio/public_html/includes/navbar.php on line 8
+[21-Dec-2025 01:06:49 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home3/barrizio/public_html/includes/navbar.php:8
+Stack trace:
+#0 /home3/barrizio/public_html/index.php(124): include()
+#1 {main}
+  thrown in /home3/barrizio/public_html/includes/navbar.php on line 8
+[21-Dec-2025 01:06:52 UTC] PHP Warning:  Undefined variable $connection in /home3/barrizio/public_html/includes/navbar.php on line 8
+[21-Dec-2025 01:06:52 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home3/barrizio/public_html/includes/navbar.php:8
+Stack trace:
+#0 /home3/barrizio/public_html/index.php(124): include()
+#1 {main}
+  thrown in /home3/barrizio/public_html/includes/navbar.php on line 8
+[23-Dec-2025 10:56:38 UTC] PHP Warning:  Undefined variable $connection in /home3/barrizio/public_html/includes/navbar.php on line 8
+[23-Dec-2025 10:56:38 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home3/barrizio/public_html/includes/navbar.php:8
+Stack trace:
+#0 /home3/barrizio/public_html/index.php(124): include()
+#1 {main}
+  thrown in /home3/barrizio/public_html/includes/navbar.php on line 8
+[23-Dec-2025 10:56:38 UTC] PHP Warning:  Undefined variable $connection in /home3/barrizio/public_html/includes/navbar.php on line 8
+[23-Dec-2025 10:56:38 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home3/barrizio/public_html/includes/navbar.php:8
+Stack trace:
+#0 /home3/barrizio/public_html/index.php(124): include()
+#1 {main}
+  thrown in /home3/barrizio/public_html/includes/navbar.php on line 8
+[23-Dec-2025 10:56:41 UTC] PHP Warning:  Undefined variable $connection in /home3/barrizio/public_html/includes/navbar.php on line 8
+[23-Dec-2025 10:56:41 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home3/barrizio/public_html/includes/navbar.php:8
+Stack trace:
+#0 /home3/barrizio/public_html/index.php(124): include()
+#1 {main}
+  thrown in /home3/barrizio/public_html/includes/navbar.php on line 8

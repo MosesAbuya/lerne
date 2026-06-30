@@ -1,0 +1,731 @@
+/* ==========================================================================
+   LERNE ADAMS FOUNDATION — Brand CSS (Aasha-Inspired Design System)
+   Based on Aasha NGO Theme V3 aesthetic — clean, modern, impact-driven
+   ========================================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Manrope:wght@300;400;500;600;700;800&display=swap');
+
+/* ==========================================================================
+   CSS Custom Properties
+   ========================================================================== */
+:root {
+    /* Brand Colors — LAF */
+    --laf-green:         #3D8B37;
+    --laf-green-dark:    #1E5C1A;
+    --laf-green-deep:    #0D3B2E;
+    --laf-green-light:   #5AAF54;
+    --laf-yellow:        #F5C518;
+    --laf-yellow-dark:   #D4A017;
+    --laf-orange:        #E8751A;
+    --laf-red:           #C0392B;
+    --laf-purple:        #7B3FA0;
+    --laf-blue:          #2980B9;
+    --laf-teal:          #1ABC9C;
+    --laf-navy:          #0D1B2A;
+    --laf-off-white:     #F9F9F6;
+    --laf-light-gray:    #F5F5F5;
+    --laf-white:         #FFFFFF;
+    --laf-text-dark:     #0D3B2E;
+    --laf-text-body:     #4A5568;
+    --laf-text-muted:    #718096;
+    --laf-border:        #E2E8F0;
+
+    /* Sector Colors */
+    --laf-sgbv-red:      #8B2020;
+    --laf-mental-purple: #5B2D8E;
+
+    /* Typography — Aasha uses clean sans-serif */
+    --font-heading:  'Manrope', 'Inter', sans-serif;
+    --font-body:     'Inter', 'Manrope', sans-serif;
+
+    /* Layout */
+    --section-pad:   110px;
+    --card-radius:   12px;
+    --btn-radius:    6px;
+    --transition:    all 0.3s ease;
+    --shadow-card:   0 4px 24px rgba(0,0,0,0.06);
+    --shadow-hover:  0 12px 32px rgba(0,0,0,0.12);
+}
+
+/* ==========================================================================
+   Reset & Base
+   ========================================================================== */
+*, *::before, *::after { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+    font-family: var(--font-body);
+    background-color: var(--laf-white);
+    color: var(--laf-text-body);
+    overflow-x: hidden;
+    line-height: 1.7;
+    padding-top: 0; /* Hero pages use margin-top on hero section */
+}
+/* Non-hero pages need padding to clear fixed navbar */
+body.laf-inner-page {
+    padding-top: 0;
+}
+img { max-width: 100%; height: auto; }
+a { text-decoration: none; transition: var(--transition); }
+
+/* ==========================================================================
+   Global Typography
+   ========================================================================== */
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+    color: var(--laf-text-dark);
+    line-height: 1.15;
+    font-weight: 700;
+    margin-bottom: 0.5em;
+    letter-spacing: -0.01em;
+}
+h1 { font-size: clamp(2.5rem, 5vw, 4rem); font-weight: 800; }
+h2 { font-size: clamp(2rem, 4vw, 3.2rem);   font-weight: 800; }
+h3 { font-size: clamp(1.4rem, 3vw, 2.2rem);   font-weight: 700; }
+h4 { font-size: clamp(1.15rem, 2vw, 1.5rem); font-weight: 700; }
+h5 { font-size: 1.1rem; font-weight: 600; }
+h6 { font-size: 0.95rem; font-weight: 600; }
+p { font-size: 1rem; line-height: 1.75; color: var(--laf-text-body); }
+
+/* ==========================================================================
+   Section Badge (Pill)
+   ========================================================================== */
+.laf-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-family: var(--font-body);
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--laf-text-dark);
+    background: transparent;
+    border: 1px solid var(--laf-border);
+    border-radius: 100px;
+    padding: 6px 16px 6px 12px;
+    letter-spacing: 0.01em;
+    margin-bottom: 16px;
+}
+.laf-badge::before {
+    content: '';
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--laf-yellow);
+    flex-shrink: 0;
+}
+
+/* ==========================================================================
+   Section Headings
+   ========================================================================== */
+.laf-section-title {
+    font-family: var(--font-heading);
+    font-size: clamp(2rem, 4vw, 3.2rem);
+    font-weight: 800;
+    color: var(--laf-text-dark);
+    line-height: 1.15;
+    margin-bottom: 1.2rem;
+    letter-spacing: -0.02em;
+}
+
+/* ==========================================================================
+   Sections
+   ========================================================================== */
+.laf-section { padding: var(--section-pad) 0; }
+.laf-section-white  { background: #FFFFFF; }
+.laf-section-light  { background: var(--laf-light-gray); }
+.laf-section-offwhite { background: var(--laf-off-white); }
+.laf-section-dark   { background: var(--laf-green-deep); color: #fff; }
+
+/* Color Utilities */
+.text-laf-green  { color: var(--laf-green)  !important; }
+.text-laf-yellow { color: var(--laf-yellow) !important; }
+.text-laf-dark   { color: var(--laf-text-dark) !important; }
+.text-laf-muted  { color: var(--laf-text-muted) !important; }
+.bg-laf-green      { background-color: var(--laf-green)      !important; }
+.bg-laf-green-deep { background-color: var(--laf-green-deep) !important; }
+.bg-laf-yellow     { background-color: var(--laf-yellow)     !important; }
+.bg-laf-light      { background-color: var(--laf-light-gray) !important; }
+
+/* ==========================================================================
+   Navbar
+   ========================================================================== */
+.laf-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background: transparent;
+    transition: background 0.4s ease, box-shadow 0.4s ease, border 0.4s ease;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+.laf-header.laf-scrolled {
+    background: var(--laf-green-deep) !important;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+    border-bottom-color: transparent;
+}
+.laf-header.laf-solid {
+    background: var(--laf-green-deep) !important;
+    border-bottom-color: transparent;
+}
+.laf-navbar-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    height: 100px;
+    max-width: 1600px;
+    margin: 0 auto;
+    gap: 20px;
+}
+.laf-navbar-brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.laf-navbar-brand img {
+    height: 80px;
+    object-fit: contain;
+}
+.laf-navbar-brand .brand-name {
+    font-family: var(--font-heading);
+    font-size: 1.4rem;
+    font-weight: 800;
+    color: #fff;
+    letter-spacing: -0.02em;
+}
+.laf-navbar-brand .brand-name span { color: var(--laf-yellow); }
+
+.laf-nav-links {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 12px;
+}
+.laf-nav-links > li > a,
+.laf-nav-links > li > .nav-link {
+    font-family: var(--font-body);
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: all 0.3s;
+}
+.laf-nav-links > li > a:hover,
+.laf-nav-links > li.active > a,
+.laf-nav-links > li > .nav-link:hover,
+.laf-nav-links > li.active > .nav-link {
+    color: var(--laf-yellow);
+}
+.laf-nav-links .dropdown-menu {
+    background: var(--laf-white);
+    border: none;
+    border-radius: 8px;
+    padding: 12px 0;
+    min-width: 220px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+    top: calc(100% + 15px);
+    border-top: 3px solid var(--laf-yellow);
+    margin-top: 0;
+}
+.laf-nav-links .dropdown-item {
+    color: var(--laf-text-dark);
+    font-size: 0.9rem;
+    font-weight: 500;
+    padding: 10px 24px;
+}
+.laf-nav-links .dropdown-item:hover {
+    color: var(--laf-green);
+    background: var(--laf-light-gray);
+    padding-left: 28px;
+}
+
+/* Mega Menu */
+.laf-nav-links .mega-menu-fw {
+    position: static;
+}
+.laf-nav-links .mega-menu-fw .dropdown-menu {
+    width: 100%;
+    left: 0;
+    right: 0;
+    padding: 30px 40px;
+    background: var(--laf-navy) !important;
+    border-radius: 0 0 12px 12px !important;
+    border-top: 3px solid var(--laf-yellow) !important;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.25) !important;
+}
+.laf-nav-links .mega-menu-fw .dropdown-item {
+    color: rgba(255,255,255,0.8) !important;
+    font-size: 0.9rem;
+    padding: 8px 16px;
+    border-radius: 6px;
+}
+.laf-nav-links .mega-menu-fw .dropdown-item:hover {
+    color: var(--laf-yellow) !important;
+    background: rgba(255,255,255,0.05) !important;
+    padding-left: 20px;
+}
+.laf-nav-links .mega-menu-title,
+.mega-menu-title {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--laf-yellow) !important;
+    font-weight: 700;
+    margin-bottom: 12px;
+    padding-left: 16px;
+}
+.laf-nav-donate {
+    margin-left: auto; /* Pushes donate to the right */
+}
+.laf-nav-donate a.btn-donate {
+    display: inline-flex;
+    align-items: center;
+    background: var(--laf-yellow);
+    color: var(--laf-text-dark);
+    font-family: var(--font-body);
+    font-weight: 700;
+    padding: 12px 28px;
+    border-radius: 4px; /* Aasha style */
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+.laf-nav-donate a.btn-donate:hover {
+    background: var(--laf-yellow-dark);
+}
+
+@media (max-width: 991px) {
+    .laf-nav-hamburger { display: block; background: none; border: none; color: #fff; font-size: 1.5rem; }
+    .laf-nav-links, .btn-donate { display: none !important; }
+    .laf-navbar-inner { padding: 0 20px; height: 75px; }
+}
+
+/* ==========================================================================
+   Buttons
+   ========================================================================== */
+.laf-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    font-family: var(--font-body);
+    font-size: 0.95rem;
+    font-weight: 700;
+    padding: 14px 32px;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.laf-btn-yellow {
+    background: var(--laf-yellow);
+    color: var(--laf-text-dark) !important;
+}
+.laf-btn-yellow:hover {
+    background: var(--laf-yellow-dark);
+    transform: translateY(-2px);
+}
+.laf-btn-green {
+    background: var(--laf-green);
+    color: #fff !important;
+}
+.laf-btn-green:hover {
+    background: var(--laf-green-dark);
+    transform: translateY(-2px);
+}
+.laf-btn-outline-green {
+    background: transparent;
+    color: var(--laf-green) !important;
+    border-color: var(--laf-green);
+}
+.laf-btn-outline-green:hover {
+    background: var(--laf-green);
+    color: #fff !important;
+}
+.laf-btn-outline-white {
+    background: transparent;
+    color: #fff !important;
+    border-color: rgba(255,255,255,0.6);
+}
+.laf-btn-outline-white:hover {
+    background: rgba(255,255,255,0.15);
+    border-color: #fff;
+    transform: translateY(-2px);
+}
+
+/* CTA Banner */
+.laf-cta-banner {
+    background: linear-gradient(135deg, var(--laf-green-deep) 0%, var(--laf-green-dark) 100%);
+    position: relative;
+    overflow: hidden;
+    color: #fff;
+    padding: var(--section-pad) 0;
+}
+.laf-cta-banner::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="20" cy="20" r="60" fill="rgba(245,197,24,0.04)"/><circle cx="80" cy="80" r="80" fill="rgba(245,197,24,0.03)"/></svg>') no-repeat center/cover;
+    pointer-events: none;
+}
+.laf-cta-banner h2,
+.laf-cta-banner h3 {
+    color: #fff;
+}
+.laf-cta-banner p {
+    color: rgba(255,255,255,0.8);
+}
+
+/* ==========================================================================
+   Page Headers (Inner Pages) — See laf-sections.css for full styles
+   ========================================================================== */
+/* Base background fallback */
+.laf-page-header { background-color: var(--laf-green-deep); }
+
+
+
+/* ==========================================================================
+   Hero Section
+   ========================================================================== */
+.laf-hero {
+    position: relative;
+    height: 100vh;
+    min-height: 700px;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin-top: -100px; /* Pull under transparent navbar */
+}
+.laf-hero .carousel,
+.laf-hero .carousel-inner,
+.laf-hero .carousel-item {
+    min-height: 100vh;
+    height: 100%;
+}
+.laf-hero-bg {
+    position: absolute;
+    inset: 0;
+    background-size: cover;
+    background-position: center;
+    transform: scale(1.05);
+    transition: transform 6s ease;
+}
+.carousel-item.active .laf-hero-bg { transform: scale(1); }
+.laf-hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, rgba(13,59,46,0.85) 0%, rgba(13,59,46,0.4) 100%);
+}
+.laf-hero-content {
+    position: relative;
+    z-index: 5;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 160px 6% 120px 6%; /* Generous padding prevents any overlap with navbar/cards */
+}
+.laf-hero-eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 24px;
+}
+.laf-hero-eyebrow::before {
+    content: '';
+    width: 6px;
+    height: 6px;
+    background: var(--laf-yellow);
+    border-radius: 50%;
+}
+.laf-hero h1 {
+    font-size: clamp(3rem, 6vw, 5rem);
+    color: #fff;
+    font-weight: 800;
+    max-width: 800px;
+    line-height: 1.1;
+    margin-bottom: 24px;
+}
+.laf-hero p {
+    font-size: 1.15rem;
+    color: rgba(255,255,255,0.85);
+    max-width: 600px;
+    margin-bottom: 40px;
+}
+.laf-hero-stat-card {
+    position: absolute;
+    bottom: 40px;
+    right: 6%;
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255,255,255,0.15);
+    border-radius: var(--card-radius);
+    padding: 30px;
+    color: #fff;
+    width: 380px;
+    z-index: 10;
+}
+.laf-hero-stat-card .stat-icon {
+    width: 48px;
+    height: 48px;
+    background: var(--laf-yellow);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--laf-text-dark);
+    font-size: 1.2rem;
+    margin-bottom: 16px;
+}
+.laf-hero-stat-card h4 { color: #fff; font-size: 1.2rem; margin-bottom: 12px; }
+.laf-hero-stat-card p { font-size: 0.9rem; line-height: 1.5; color: rgba(255,255,255,0.8); margin-bottom: 20px; }
+.laf-hero-stat-numbers { display: flex; gap: 30px; border-top: 1px solid rgba(255,255,255,0.2); padding-top: 20px; }
+.laf-hero-stat-item .num { font-size: 1.8rem; font-weight: 800; font-family: var(--font-heading); line-height: 1; }
+.laf-hero-stat-item .label { font-size: 0.8rem; opacity: 0.8; margin-top: 4px; }
+
+@media (max-width: 991px) {
+    .laf-hero-stat-card { display: none; }
+}
+
+/* ==========================================================================
+   Cards
+   ========================================================================== */
+.laf-card {
+    background: #fff;
+    border-radius: var(--card-radius);
+    overflow: hidden;
+    height: 100%;
+    border: 1px solid var(--laf-border);
+    transition: var(--transition);
+}
+.laf-card:hover {
+    box-shadow: var(--shadow-hover);
+    transform: translateY(-5px);
+}
+.laf-card-img {
+    height: 240px;
+    width: 100%;
+    object-fit: cover;
+}
+.laf-card-body {
+    padding: 30px;
+}
+.laf-card-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: rgba(245,197,24,0.2);
+    color: #D4A017;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+/* ==========================================================================
+   Video / Image Block
+   ========================================================================== */
+.laf-video-block {
+    position: relative;
+    border-radius: var(--card-radius);
+    overflow: hidden;
+    height: 500px;
+}
+.laf-video-block img { width: 100%; height: 100%; object-fit: cover; }
+.laf-video-play {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70px;
+    height: 70px;
+    background: var(--laf-yellow);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--laf-text-dark);
+    font-size: 1.5rem;
+    padding-left: 4px;
+    cursor: pointer;
+    box-shadow: 0 0 0 10px rgba(245,197,24,0.3);
+    transition: all 0.3s;
+}
+.laf-video-play:hover { transform: translate(-50%, -50%) scale(1.1); box-shadow: 0 0 0 15px rgba(245,197,24,0.4); }
+
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+.laf-footer {
+    background: var(--laf-green-deep);
+    color: rgba(255,255,255,0.65);
+    padding-top: 0;
+    position: relative;
+    overflow: hidden;
+}
+.laf-footer::before {
+    content: '';
+    position: absolute;
+    top: 0; right: 0;
+    width: 500px; height: 500px;
+    background: radial-gradient(circle, rgba(245,197,24,0.04) 0%, transparent 70%);
+    pointer-events: none;
+}
+.footer-top {
+    padding: 80px 0;
+}
+
+/* Newsletter Row at bottom of footer */
+.laf-footer-newsletter-row {
+    background: rgba(0,0,0,0.2);
+    border-top: 1px solid rgba(255,255,255,0.08);
+    padding: 40px 0;
+}
+.laf-footer-newsletter-row h4 { color: #fff; margin-bottom: 0; }
+.laf-footer-newsletter-row p { color: rgba(255,255,255,0.6); margin-bottom: 0; }
+.laf-footer-newsletter-form {
+    display: flex;
+    gap: 0;
+    max-width: 500px;
+}
+.laf-footer-newsletter-form input {
+    flex: 1;
+    padding: 14px 20px;
+    border: 1px solid rgba(255,255,255,0.15);
+    border-right: none;
+    background: rgba(255,255,255,0.08);
+    color: #fff;
+    border-radius: 6px 0 0 6px;
+    outline: none;
+    font-size: 0.9rem;
+}
+.laf-footer-newsletter-form input::placeholder { color: rgba(255,255,255,0.4); }
+.laf-footer-newsletter-form button {
+    background: var(--laf-yellow);
+    color: var(--laf-text-dark);
+    border: none;
+    padding: 14px 28px;
+    font-weight: 700;
+    border-radius: 0 6px 6px 0;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: all 0.3s;
+}
+.laf-footer-newsletter-form button:hover { background: var(--laf-yellow-dark); }
+
+.laf-footer-heading {
+    color: #fff;
+    font-family: var(--font-heading);
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-bottom: 24px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid rgba(245,197,24,0.3);
+}
+.laf-footer-links { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 10px; }
+.laf-footer-links li { display: flex; align-items: center; gap: 10px; }
+.laf-footer-links li::before { content: ''; width: 5px; height: 5px; background: var(--laf-yellow); border-radius: 50%; flex-shrink: 0; }
+.laf-footer-links a { color: rgba(255,255,255,0.65); text-decoration: none; transition: color 0.3s; font-size: 0.9rem; }
+.laf-footer-links a:hover { color: var(--laf-yellow); }
+
+.laf-social-icons { display: flex; gap: 10px; margin-top: 20px; }
+.laf-social-icons a {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    border: 1px solid rgba(255,255,255,0.15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(255,255,255,0.7);
+    transition: all 0.3s;
+    font-size: 0.9rem;
+}
+.laf-social-icons a:hover {
+    background: var(--laf-yellow);
+    border-color: var(--laf-yellow);
+    color: var(--laf-text-dark);
+}
+
+/* Contact items in footer */
+.laf-footer-contact-item {
+    display: flex;
+    gap: 14px;
+    margin-bottom: 20px;
+    align-items: flex-start;
+}
+.laf-footer-contact-item .icon {
+    width: 36px;
+    height: 36px;
+    background: rgba(245,197,24,0.15);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--laf-yellow);
+    font-size: 0.85rem;
+    flex-shrink: 0;
+}
+.laf-footer-contact-item .text {
+    font-size: 0.875rem;
+    line-height: 1.6;
+    color: rgba(255,255,255,0.65);
+}
+.laf-footer-newsletter {
+    display: flex;
+    gap: 0;
+}
+.laf-footer-newsletter input {
+    flex: 1;
+    padding: 12px 16px;
+    border: 1px solid rgba(255,255,255,0.15);
+    border-right: none;
+    background: rgba(255,255,255,0.07);
+    color: #fff;
+    border-radius: 6px 0 0 6px;
+    outline: none;
+    font-size: 0.85rem;
+}
+.laf-footer-newsletter input::placeholder { color: rgba(255,255,255,0.35); }
+.laf-footer-newsletter button {
+    background: var(--laf-yellow);
+    color: var(--laf-text-dark);
+    border: none;
+    padding: 12px 18px;
+    border-radius: 0 6px 6px 0;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.laf-footer-newsletter button:hover { background: var(--laf-yellow-dark); }
+
+.laf-footer-bottom {
+    border-top: 1px solid rgba(255,255,255,0.08);
+    padding: 22px 0;
+    background: rgba(0,0,0,0.2);
+    font-size: 0.875rem;
+}
+.footer-bottom-links { display: flex; gap: 0; }
+.laf-footer-bottom a { color: rgba(255,255,255,0.5); text-decoration: none; margin-left: 20px; transition: color 0.3s; }
+.laf-footer-bottom a:hover { color: var(--laf-yellow); }
+
+/* ==========================================================================
+   Animations
+   ========================================================================== */
+.laf-observe { opacity: 0; transform: translateY(30px); transition: all 0.8s ease; }
+.laf-observe.animated { opacity: 1; transform: translateY(0); }
+
+
+/* Pure CSS Dropdown Hover Mechanism */
+@media (min-width: 992px) {
+    .laf-nav-links .dropdown:hover > .dropdown-menu { display: block; opacity: 1; visibility: visible; transform: translateY(0); }
+    .laf-nav-links .dropdown-menu { display: none; opacity: 0; visibility: hidden; transition: all 0.3s ease; transform: translateY(10px); }
+}
+

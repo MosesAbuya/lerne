@@ -1,0 +1,749 @@
+/* ==========================================================================
+   home-redesign.css   now forwards to the new Barrizi brand system
+   See css/barrizi-brand.css for the full design system.
+   ========================================================================== */
+@import url('barrizi-brand.css');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800;900&family=Inter:wght@400;500;600;700&display=swap');
+
+:root {
+    --brand-navy: #0D1F2D;
+    --brand-orange: #E65C00;
+    --brand-cream: #F2ECE4;
+    --brand-white: #FFFFFF;
+    --brand-dark: #111111;
+    --font-heading: 'Montserrat', sans-serif;
+    --font-body: 'Inter', sans-serif;
+}
+
+body {
+    font-family: var(--font-body);
+    background-color: var(--brand-cream);
+    color: var(--brand-navy);
+}
+
+/* ==========================================================================
+   Global Typography & Contrast Rules
+   ========================================================================== */
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 1.1;
+    margin-bottom: 20px;
+}
+
+p, li, span {
+    font-family: var(--font-body);
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* Explicit Background Contrast Overrides */
+.bg-navy { background-color: var(--brand-navy) !important; color: var(--brand-white) !important; }
+.bg-navy h1, .bg-navy h2, .bg-navy h3, .bg-navy h4, .bg-navy h5, .bg-navy h6,
+.bg-navy p, .bg-navy li, .bg-navy span, .bg-navy div {
+    color: var(--brand-white);
+}
+.bg-navy .text-orange { color: var(--brand-orange) !important; }
+
+.bg-orange { background-color: var(--brand-orange) !important; color: var(--brand-navy) !important; }
+.bg-orange h1, .bg-orange h2, .bg-orange h3, .bg-orange h4, .bg-orange h5, .bg-orange h6,
+.bg-orange p, .bg-orange li, .bg-orange span, .bg-orange div {
+    color: var(--brand-navy);
+}
+.bg-orange .text-white { color: var(--brand-white) !important; }
+
+.bg-cream { background-color: var(--brand-cream) !important; color: var(--brand-navy) !important; }
+.bg-cream h1, .bg-cream h2, .bg-cream h3, .bg-cream h4, .bg-cream h5, .bg-cream h6,
+.bg-cream p, .bg-cream li, .bg-cream span, .bg-cream div {
+    color: var(--brand-navy);
+}
+.bg-cream .text-orange { color: var(--brand-orange) !important; }
+
+.bg-white { background-color: var(--brand-white) !important; color: var(--brand-navy) !important; }
+.bg-white h1, .bg-white h2, .bg-white h3, .bg-white h4, .bg-white h5, .bg-white h6,
+.bg-white p, .bg-white li, .bg-white span, .bg-white div {
+    color: var(--brand-navy);
+}
+.bg-white .text-orange { color: var(--brand-orange) !important; }
+
+
+/* ==========================================================================
+   Global Button Styles
+   ========================================================================== */
+.btn.hero-btn, .btn.brand-btn {
+    background-color: var(--brand-orange);
+    color: var(--brand-white) !important;
+    font-family: var(--font-heading);
+    font-weight: 800;
+    text-transform: uppercase;
+    padding: 15px 40px;
+    border-radius: 0;
+    border: 2px solid var(--brand-orange);
+    transition: all 0.3s ease;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.btn.hero-btn:hover, .btn.brand-btn:hover {
+    background-color: var(--brand-white);
+    color: var(--brand-orange) !important;
+    border-color: var(--brand-white);
+}
+
+.btn.outline-btn {
+    background-color: transparent;
+    color: var(--brand-white) !important;
+    border: 3px solid var(--brand-white);
+    font-family: var(--font-heading);
+    font-weight: 800;
+    text-transform: uppercase;
+    padding: 15px 40px;
+    border-radius: 0;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.btn.outline-btn:hover {
+    background-color: var(--brand-white);
+    color: var(--brand-navy) !important;
+}
+
+.btn.outline-navy-btn {
+    background-color: transparent;
+    color: var(--brand-navy) !important;
+    border: 3px solid var(--brand-navy);
+    font-family: var(--font-heading);
+    font-weight: 800;
+    text-transform: uppercase;
+    padding: 15px 40px;
+    border-radius: 0;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.btn.outline-navy-btn:hover {
+    background-color: var(--brand-navy);
+    color: var(--brand-white) !important;
+}
+
+/* ==========================================================================
+   Poster Graphic Elements
+   ========================================================================== */
+.poster-highlight {
+    background-color: var(--brand-orange);
+    color: var(--brand-white) !important;
+    padding: 5px 15px;
+    display: inline-block;
+}
+
+.poster-highlight-navy {
+    background-color: var(--brand-navy);
+    color: var(--brand-white) !important;
+    padding: 5px 15px;
+    display: inline-block;
+}
+
+.polaroid-feature {
+    background: var(--brand-white);
+    padding: 15px 15px 40px 15px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+    transform: rotate(3deg);
+    border: 1px solid #ddd;
+    max-width: 100%;
+}
+
+.section-label {
+    display: inline-block;
+    background-color: var(--brand-orange);
+    color: var(--brand-white) !important;
+    padding: 5px 20px;
+    font-family: var(--font-heading);
+    font-weight: 900;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    border: 3px solid var(--brand-navy);
+    text-transform: uppercase;
+}
+
+.straight-image {
+    border: 8px solid var(--brand-white);
+    box-shadow: 10px 10px 0px var(--brand-orange);
+    width: 100%;
+}
+
+/* ==========================================================================
+   Section Shapes (Trapezia / Diagonal Edges)
+   ========================================================================== */
+.section-diagonal {
+    position: relative;
+    z-index: 1;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    clip-path: polygon(0 5vw, 100% 0, 100% calc(100% - 5vw), 0 100%);
+    margin-top: -5vw;
+}
+.section-diagonal-reverse {
+    position: relative;
+    z-index: 1;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    clip-path: polygon(0 0, 100% 5vw, 100% 100%, 0 calc(100% - 5vw));
+    margin-top: -5vw;
+}
+
+/* ==========================================================================
+   Navbar Adjustments
+   ========================================================================== */
+.header-area {
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+    top: 0;
+    transition: background-color 0.4s ease;
+    background-color: transparent;
+}
+
+.header-area.scrolled {
+    position: fixed;
+    background-color: var(--brand-navy);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+
+.header-area .header-top {
+    border-bottom: none; 
+}
+
+/* ==========================================================================
+   Hero Section
+   ========================================================================== */
+.hero-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    min-height: 700px;
+    background-color: var(--brand-navy);
+    overflow: hidden;
+}
+
+.hero-slider, .hero-slide {
+    width: 100%;
+    height: 100%;
+}
+
+.hero-slide {
+    position: absolute;
+    top: 0; left: 0;
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    z-index: 1;
+}
+
+.hero-slide.active {
+    opacity: 1;
+    z-index: 2;
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0; left: 0; width: 100%; height: 100%;
+    background: linear-gradient(to right, rgba(13, 31, 45, 0.95) 0%, rgba(13, 31, 45, 0.7) 50%, rgba(13, 31, 45, 0) 100%);
+    z-index: 3;
+}
+
+.hero-content-container {
+    position: relative;
+    z-index: 4;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.hero-content {
+    max-width: 800px;
+    padding-left: 15px;
+}
+
+.hero-content h1 {
+    font-size: 5rem;
+    color: var(--brand-white);
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 0px var(--brand-navy);
+}
+
+.hero-content h2.accent {
+    font-size: 1.8rem;
+    color: var(--brand-orange);
+    letter-spacing: 2px;
+}
+
+.hero-text-box {
+    background-color: var(--brand-navy);
+    padding: 20px 30px;
+    border-left: 8px solid var(--brand-orange);
+    margin-bottom: 40px;
+    display: inline-block;
+}
+
+.hero-text-box p {
+    font-size: 1.25rem;
+    color: var(--brand-white);
+    margin: 0;
+    line-height: 1.6;
+}
+
+.hero-btn-group {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* ==========================================================================
+   Urgent Stats Strip
+   ========================================================================== */
+.stats-strip {
+    padding: 40px 0;
+}
+
+.stat-item {
+    text-align: center;
+    border-right: 2px solid rgba(13, 31, 45, 0.2);
+}
+.stat-item:last-child {
+    border-right: none;
+}
+
+.stat-item h3 {
+    font-size: 4rem;
+    margin-bottom: 0;
+}
+
+.stat-item p {
+    font-family: var(--font-heading);
+    font-weight: 800;
+    font-size: 1.2rem;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+/* ==========================================================================
+   The Reality Section
+   ========================================================================== */
+.reality-section {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 2;
+}
+
+.reality-content, .reality-image {
+    flex: 1 1 50%;
+    min-height: 600px;
+}
+
+.reality-image {
+    background-size: cover;
+    background-position: center;
+}
+
+.reality-content {
+    padding: 8% 8%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.reality-content p, .reality-list li {
+    color: var(--brand-white);
+}
+
+.reality-content h2 {
+    font-size: 3.5rem;
+    margin-bottom: 40px;
+}
+
+.reality-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.reality-list li {
+    font-size: 1.5rem;
+    margin-bottom: 25px;
+    position: relative;
+    padding-left: 50px;
+    font-weight: 500;
+}
+
+.reality-list li::before {
+    content: "✗";
+    position: absolute;
+    left: 0;
+    color: var(--brand-orange);
+    font-weight: 900;
+    font-size: 2rem;
+    line-height: 1;
+}
+
+/* ==========================================================================
+   Mission Section
+   ========================================================================== */
+.mission-section {
+    padding: 100px 0;
+}
+
+.mission-heading {
+    font-size: 3.5rem;
+    margin-bottom: 30px;
+}
+
+.mission-text {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+/* ==========================================================================
+   Our Programmes (Boxy Poster Style)
+   ========================================================================== */
+.programmes-section {
+    padding: 100px 0;
+}
+
+.programmes-section .section-title {
+    text-align: center;
+    font-size: 4rem;
+    margin-bottom: 60px;
+}
+
+.prog-card {
+    padding: 50px 40px;
+    text-align: center;
+    border: 4px solid var(--brand-navy);
+    border-radius: 0;
+    margin-bottom: 30px;
+    transition: transform 0.3s ease;
+    height: 100%;
+}
+
+.prog-card:hover {
+    transform: translateY(-10px);
+}
+
+.prog-card-1 { background-color: var(--brand-orange); color: var(--brand-white); box-shadow: 12px 12px 0px var(--brand-white); }
+.prog-card-2 { background-color: var(--brand-cream); color: var(--brand-navy); border-color: var(--brand-orange); box-shadow: 12px 12px 0px var(--brand-navy); }
+.prog-card-3 { background-color: var(--brand-white); color: var(--brand-navy); border-color: var(--brand-navy); box-shadow: 12px 12px 0px var(--brand-orange); }
+
+.prog-icon {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    margin: 0 auto 30px;
+}
+
+.prog-card-1 .prog-icon { background-color: var(--brand-white); color: var(--brand-navy); }
+.prog-card-2 .prog-icon { background-color: var(--brand-navy); color: var(--brand-white); }
+.prog-card-3 .prog-icon { background-color: var(--brand-orange); color: var(--brand-white); }
+
+.prog-card h3 {
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+    color: inherit;
+}
+
+.prog-card p {
+    color: inherit;
+    font-weight: 600;
+}
+
+/* ==========================================================================
+   Projects Section (Boxy Poster Style)
+   ========================================================================== */
+.projects-section {
+    padding: 100px 0;
+}
+
+.project-card {
+    border: 4px solid var(--brand-navy);
+    border-radius: 0;
+    overflow: hidden;
+    margin-bottom: 40px;
+    box-shadow: 10px 10px 0px var(--brand-navy);
+    transition: transform 0.2s;
+    background-color: var(--brand-white);
+}
+
+.project-card:hover {
+    transform: translate(-5px, -5px);
+    box-shadow: 15px 15px 0px var(--brand-orange);
+}
+
+.project-img {
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+    border-bottom: 4px solid var(--brand-navy);
+}
+
+.project-content {
+    padding: 30px;
+}
+
+.project-content h3 {
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+}
+
+.progress-container {
+    width: 100%;
+    height: 12px;
+    background-color: rgba(13, 31, 45, 0.1);
+    margin-bottom: 15px;
+    border: 2px solid var(--brand-navy);
+}
+
+.progress-bar {
+    height: 100%;
+    background-color: var(--brand-orange);
+}
+
+.project-stats {
+    display: flex;
+    justify-content: space-between;
+    font-family: var(--font-heading);
+    font-weight: 800;
+    font-size: 1rem;
+}
+
+/* ==========================================================================
+   Impact Stat Banner
+   ========================================================================== */
+.impact-banner {
+    padding: 80px 0;
+    border-top: 8px solid var(--brand-orange);
+    border-bottom: 8px solid var(--brand-orange);
+}
+
+.impact-banner h1 {
+    font-size: 8rem;
+    margin-bottom: 0;
+    line-height: 1;
+}
+
+.impact-banner h3 {
+    font-family: var(--font-body);
+    font-weight: 500;
+    font-size: 1.8rem;
+    max-width: 800px;
+    margin: 20px auto 0;
+    line-height: 1.5;
+}
+
+/* ==========================================================================
+   Volunteer / CTA Banner
+   ========================================================================== */
+.volunteer-banner {
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    padding: 150px 0;
+    text-align: center;
+}
+
+.volunteer-overlay {
+    position: absolute;
+    top: 0; left: 0; width: 100%; height: 100%;
+    background-color: rgba(13, 31, 45, 0.85);
+}
+
+.volunteer-content {
+    position: relative;
+    z-index: 2;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.volunteer-content h2, .volunteer-content p {
+    color: var(--brand-white) !important;
+}
+
+.volunteer-content h2 {
+    font-size: 6rem;
+    margin-bottom: 40px;
+}
+
+.volunteer-content p {
+    font-size: 1.8rem;
+    margin-bottom: 50px;
+}
+
+/* ==========================================================================
+   Adopt a Child (Replicating Dramatic Poster)
+   ========================================================================== */
+.adopt-section {
+    padding: 120px 0;
+    position: relative;
+    background-color: var(--brand-orange);
+    overflow: hidden;
+    z-index: 1;
+}
+
+.adopt-section::before {
+    content: "";
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    background-color: var(--brand-navy);
+    transform: rotate(-8deg) translateY(-60%);
+    top: 0;
+    left: -50%;
+    z-index: -1;
+}
+
+.adopt-text h2 {
+    font-size: 5rem;
+    margin-bottom: 20px;
+    line-height: 1;
+    color: var(--brand-white) !important;
+}
+.adopt-text h2 span {
+    color: var(--brand-orange) !important;
+    background-color: transparent;
+    padding: 0;
+}
+
+.adopt-text p {
+    font-size: 1.4rem;
+    margin-bottom: 40px;
+    color: var(--brand-white) !important;
+}
+
+.adopt-poster-img {
+    border: 15px solid var(--brand-white);
+    transform: rotate(4deg);
+    box-shadow: 0 30px 60px rgba(0,0,0,0.4);
+    max-width: 100%;
+    border-bottom-width: 40px;
+}
+
+/* ==========================================================================
+   Events (Boxy Poster Style)
+   ========================================================================== */
+.event-card {
+    border: 4px solid var(--brand-navy);
+    margin-bottom: 30px;
+    box-shadow: 8px 8px 0px var(--brand-orange);
+    transition: transform 0.3s;
+    background-color: var(--brand-white);
+}
+
+.event-card:hover {
+    transform: translate(-5px, -5px);
+}
+
+.event-img {
+    height: 250px;
+    object-fit: cover;
+    width: 100%;
+    border-right: 4px solid var(--brand-navy);
+}
+
+.event-details {
+    padding: 30px;
+}
+
+.event-date-chip {
+    background-color: var(--brand-orange);
+    padding: 5px 15px;
+    font-family: var(--font-heading);
+    font-weight: 800;
+    margin-bottom: 15px;
+    display: inline-block;
+    border: 2px solid var(--brand-navy);
+}
+
+/* ==========================================================================
+   Success Stories (Blog) (Boxy Poster Style)
+   ========================================================================== */
+.blog-card {
+    border: 4px solid var(--brand-navy);
+    box-shadow: 10px 10px 0px var(--brand-navy);
+    transition: transform 0.3s;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--brand-white);
+}
+
+.blog-card:hover {
+    transform: translate(-5px, -5px);
+    box-shadow: 15px 15px 0px var(--brand-orange);
+}
+
+.blog-img {
+    height: 300px;
+    object-fit: cover;
+    width: 100%;
+    border-bottom: 4px solid var(--brand-navy);
+}
+
+.blog-details {
+    padding: 40px 30px;
+    position: relative;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.blog-date-badge {
+    position: absolute;
+    top: -25px;
+    right: 30px;
+    border: 3px solid var(--brand-navy);
+    padding: 8px 20px;
+    font-family: var(--font-heading);
+    font-weight: 900;
+    font-size: 1.2rem;
+    box-shadow: 5px 5px 0px var(--brand-navy);
+}
+
+.blog-details h4 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.blog-details p {
+    margin-bottom: 30px;
+    flex-grow: 1;
+}
+
+/* ==========================================================================
+   Responsive
+   ========================================================================== */
+@media (max-width: 991px) {
+    .hero-content h1 { font-size: 4rem; }
+    .reality-content h2 { font-size: 3rem; }
+    .mission-heading { font-size: 2.5rem; }
+    .adopt-text h2 { font-size: 3.5rem; }
+    .volunteer-content h2 { font-size: 4rem; }
+    .impact-banner h1 { font-size: 5rem; }
+    .stat-item { border-right: none; margin-bottom: 30px; }
+    .event-img { border-right: none; border-bottom: 4px solid var(--brand-navy); }
+}
+
+@media (max-width: 768px) {
+    .hero-content h1 { font-size: 3rem; }
+    .reality-content, .reality-image, .adopt-text {
+        flex: 1 1 100%;
+    }
+    .reality-image { min-height: 300px; }
+}

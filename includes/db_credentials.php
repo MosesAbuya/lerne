@@ -1,0 +1,12 @@
+<?php
+// ==========================================
+// LERNE ADAMS FOUNDATION — DATABASE CREDENTIALS
+// ==========================================
+// This file should ideally be placed OUTSIDE the web root in a production environment
+// to prevent direct access via URL.
+
+define('DB_HOST', '127.0.0.1');
+define('DB_USER', 'root');
+define('DB_PASS', '');
+define('DB_NAME', 'lerne');
+?>
