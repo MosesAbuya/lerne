@@ -80,7 +80,7 @@
       <div class="laf-page-header-content container">
           <h1 class="display-4 fw-bold">Frequently Asked Questions</h1>
           <div class="laf-breadcrumb">
-              <a href="index.php">Home</a> <span class="mx-2">/</span> FAQ
+              <a href="index">Home</a> <span class="mx-2">/</span> FAQ
           </div>
       </div>
   </section>
@@ -92,7 +92,7 @@
           <div class="text-center mb-5 max-w-800 mx-auto">
               <h2 class="laf-section-title">Got Questions? We Have Answers.</h2>
               <p class="text-muted lead">
-                  Find answers to the most common questions about the Lerne Adams Foundation, our programmes, volunteering, and safeguarding. Can't find what you're looking for? <a href="contact.php" class="text-laf-green fw-bold">Contact us</a>.
+                  Find answers to the most common questions about the Lerne Adams Foundation, our programmes, volunteering, and safeguarding. Can't find what you're looking for? <a href="contact" class="text-laf-green fw-bold">Contact us</a>.
               </p>
           </div>
 
@@ -145,7 +145,7 @@
                           <span class="fq-icon"><i class="fas fa-chevron-down"></i></span>
                       </div>
                       <div class="laf-faq-answer">
-                          You can support us by volunteering your skills, partnering with us on projects, or providing financial support. Please visit our <a href="donate.php" class="text-laf-green fw-bold">Support Us</a> page to find our direct contact details for partnerships and donations.
+                          You can support us by volunteering your skills, partnering with us on projects, or providing financial support. Please visit our <a href="donate" class="text-laf-green fw-bold">Support Us</a> page to find our direct contact details for partnerships and donations.
                       </div>
                   </div>
                   
@@ -170,7 +170,7 @@
                           <span class="fq-icon"><i class="fas fa-chevron-down"></i></span>
                       </div>
                       <div class="laf-faq-answer">
-                          We welcome volunteers from all backgrounds. You can fill out the application form on our <a href="volunteer.php" class="text-laf-green fw-bold">Volunteer page</a>. Our team will review your skills and get in touch regarding available opportunities.
+                          We welcome volunteers from all backgrounds. You can fill out the application form on our <a href="volunteer" class="text-laf-green fw-bold">Volunteer page</a>. Our team will review your skills and get in touch regarding available opportunities.
                       </div>
                   </div>
                   

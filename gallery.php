@@ -37,7 +37,7 @@ require_once 'includes/connection.php';
       <div class="laf-page-header-content container">
           <h1 class="display-4 fw-bold">Photo Gallery</h1>
           <div class="laf-breadcrumb">
-              <a href="index.php">Home</a> <span class="mx-2">/</span> Gallery
+              <a href="index">Home</a> <span class="mx-2">/</span> Gallery
           </div>
       </div>
   </section>
@@ -95,7 +95,7 @@ require_once 'includes/connection.php';
           <h2 class="display-5 font-heading fw-bold">Support Our Work</h2>
           <p class="lead mb-5 max-w-700 mx-auto opacity-75">Every picture tells a story of change. Help us create more beautiful moments.</p>
           <div class="d-flex flex-wrap justify-content-center gap-3">
-              <a href="donate.php" class="laf-btn laf-btn-yellow">Donate Now</a>
+              <a href="donate" class="laf-btn laf-btn-yellow">Donate Now</a>
           </div>
       </div>
   </section>

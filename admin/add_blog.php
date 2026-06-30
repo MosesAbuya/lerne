@@ -4,6 +4,11 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     require_once '../includes/connection.php';
     header('Content-Type: application/json');
     $name = $_POST['name'] ?? '';
+    
+    // Slug generation
+    $slugBase = strtolower(trim(preg_replace('/[^A-Za-z0-9-]+/', '-', $name)));
+    $slug = trim($slugBase, '-') . '-' . time();
+    
     $description = $_POST['description'] ?? '';
     $product_date = $_POST['product_date'] ?? date('Y-m-d');
     
@@ -29,9 +34,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     
     try {
         $imagesString = json_encode($imageNames);
-        $stmt = $pdo->prepare("INSERT INTO products (name, description, product_date, photo, other_photos) VALUES (:name, :desc, :date, :photo, :other)");
+        $stmt = $pdo->prepare("INSERT INTO products (name, slug, description, product_date, photo, other_photos) VALUES (:name, :slug, :desc, :date, :photo, :other)");
         $stmt->execute([
             'name' => $name,
+            'slug' => $slug,
             'desc' => $description,
             'date' => $product_date,
             'photo' => $photoName,

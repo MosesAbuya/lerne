@@ -18,7 +18,7 @@ require_once 'includes/connection.php';
       <div class="laf-page-header-content container">
           <h1 class="display-4 fw-bold">Our Programmes</h1>
           <div class="laf-breadcrumb">
-              <a href="index.php">Home</a> <span class="mx-2">/</span> Our Work
+              <a href="index">Home</a> <span class="mx-2">/</span> Our Work
           </div>
       </div>
   </section>
@@ -94,7 +94,7 @@ require_once 'includes/connection.php';
                               <li class="mb-2">Economic empowerment sessions</li>
                               <li>Women baraza (community dialogues)</li>
                           </ul>
-                          <a href="mothers.php" class="text-laf-orange fw-bold text-uppercase small mt-auto">View Single Parents Project <i class="fas fa-arrow-right ms-1"></i></a>
+                          <a href="mothers" class="text-laf-orange fw-bold text-uppercase small mt-auto">View Single Parents Project <i class="fas fa-arrow-right ms-1"></i></a>
                       </div>
                   </div>
               </div>
@@ -118,7 +118,7 @@ require_once 'includes/connection.php';
                               <li class="mb-2">Community stigma reduction</li>
                               <li>Community mobilization</li>
                           </ul>
-                          <a href="hiv.php" class="text-laf-red fw-bold text-uppercase small mt-auto">Explore Programme <i class="fas fa-arrow-right ms-1"></i></a>
+                          <a href="hiv" class="text-laf-red fw-bold text-uppercase small mt-auto">Explore Programme <i class="fas fa-arrow-right ms-1"></i></a>
                       </div>
                   </div>
               </div>
@@ -163,7 +163,7 @@ require_once 'includes/connection.php';
                               <li class="mb-2">Abstinence campaigns</li>
                               <li>Contraception awareness</li>
                           </ul>
-                          <a href="srh.php" class="text-laf-purple fw-bold text-uppercase small mt-auto">Explore Programme <i class="fas fa-arrow-right ms-1"></i></a>
+                          <a href="srh" class="text-laf-purple fw-bold text-uppercase small mt-auto">Explore Programme <i class="fas fa-arrow-right ms-1"></i></a>
                       </div>
                   </div>
               </div>
@@ -187,7 +187,7 @@ require_once 'includes/connection.php';
                               <li class="mb-2">Male champions programme</li>
                               <li>Policy advocacy</li>
                           </ul>
-                          <a href="sgbv.php" style="color:#8B2020" class="fw-bold text-uppercase small mt-auto">Explore Programme <i class="fas fa-arrow-right ms-1"></i></a>
+                          <a href="sgbv" style="color:#8B2020" class="fw-bold text-uppercase small mt-auto">Explore Programme <i class="fas fa-arrow-right ms-1"></i></a>
                       </div>
                   </div>
               </div>
@@ -210,7 +210,7 @@ require_once 'includes/connection.php';
                               <li class="mb-2">Family reintegration</li>
                               <li>Street child outreach</li>
                           </ul>
-                          <a href="junior.php" class="text-laf-blue fw-bold text-uppercase small mt-auto">Explore Programme <i class="fas fa-arrow-right ms-1"></i></a>
+                          <a href="junior" class="text-laf-blue fw-bold text-uppercase small mt-auto">Explore Programme <i class="fas fa-arrow-right ms-1"></i></a>
                       </div>
                   </div>
               </div>
@@ -233,7 +233,7 @@ require_once 'includes/connection.php';
                               <li class="mb-2">Referral to health facilities</li>
                               <li>Community dialogues</li>
                           </ul>
-                          <a href="mental-health.php" style="color:#5B2D8E" class="fw-bold text-uppercase small mt-auto">Explore Programme <i class="fas fa-arrow-right ms-1"></i></a>
+                          <a href="mental-health" style="color:#5B2D8E" class="fw-bold text-uppercase small mt-auto">Explore Programme <i class="fas fa-arrow-right ms-1"></i></a>
                       </div>
                   </div>
               </div>
@@ -284,8 +284,8 @@ require_once 'includes/connection.php';
           <h2 class="display-5 font-heading fw-bold">Partner With LAF</h2>
           <p class="lead mb-5 max-w-700 mx-auto opacity-75">Support our programmes and help us deliver sustainable development to the marginalized communities of the Lake Victoria Region.</p>
           <div class="d-flex flex-wrap justify-content-center gap-3">
-              <a href="contact.php" class="laf-btn laf-btn-outline-white">Become a Partner</a>
-              <a href="volunteer.php" class="laf-btn laf-btn-yellow">Volunteer With Us</a>
+              <a href="contact" class="laf-btn laf-btn-outline-white">Become a Partner</a>
+              <a href="volunteer" class="laf-btn laf-btn-yellow">Volunteer With Us</a>
           </div>
       </div>
   </section>

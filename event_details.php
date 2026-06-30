@@ -2,13 +2,13 @@
 session_start();
 require_once 'includes/connection.php';
 
-$event_id = isset($_GET['id']) ? (int)$_GET['id'] : 0;
+$slug = $_GET['slug'] ?? null;
 $event = null;
 
-if ($event_id > 0) {
+if ($slug) {
     try {
-        $stmt = $pdo->prepare("SELECT * FROM events WHERE id = ?");
-        $stmt->execute([$event_id]);
+        $stmt = $pdo->prepare("SELECT * FROM events WHERE slug = ?");
+        $stmt->execute([$slug]);
         $event = $stmt->fetch();
     } catch (PDOException $e) {
         // Silently handle error, redirect if not found
@@ -34,7 +34,7 @@ $image = !empty($event['photo']) ? "images/" . htmlspecialchars($event['photo'])
 
   <!-- PAGE HEADER -->
   <section class="laf-page-header">
-      <div class="laf-page-header-bg" style="background-image: url('images/lerne/pexels-w-10903332.jpg');"></div>
+      <div class="laf-page-header-bg" style="background-image: url('images/lerne/activities/469909348_1813644576074800_7061410995148019999_n.jpg');"></div>
       <div class="laf-page-header-content container">
           <h1 class="display-5 fw-bold text-truncate mx-auto" style="max-width: 900px;"><?= htmlspecialchars($event['name']) ?></h1>
           <div class="laf-breadcrumb">

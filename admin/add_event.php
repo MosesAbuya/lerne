@@ -4,6 +4,11 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     require_once '../includes/connection.php';
     header('Content-Type: application/json');
     $name = $_POST['name'] ?? '';
+    
+    // Slug generation
+    $slugBase = strtolower(trim(preg_replace('/[^A-Za-z0-9-]+/', '-', $name)));
+    $slug = trim($slugBase, '-') . '-' . time();
+    
     $event_date = $_POST['event_date'] ?? '';
     $event_time = $_POST['event_time'] ?? '';
     $location = $_POST['location'] ?? '';
@@ -18,9 +23,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     }
     
     try {
-        $stmt = $pdo->prepare("INSERT INTO events (name, event_date, event_time, location, p_category, description, photo) VALUES (:name, :date, :time, :loc, :cat, :desc, :photo)");
+        $stmt = $pdo->prepare("INSERT INTO events (name, slug, event_date, event_time, location, p_category, description, photo) VALUES (:name, :slug, :date, :time, :loc, :cat, :desc, :photo)");
         $stmt->execute([
             'name' => $name,
+            'slug' => $slug,
             'date' => $event_date,
             'time' => $event_time,
             'loc' => $location,

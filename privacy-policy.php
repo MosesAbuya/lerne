@@ -113,7 +113,7 @@
       <div class="laf-page-header-content container">
           <h1 class="display-4 fw-bold">Privacy Policy</h1>
           <div class="laf-breadcrumb">
-              <a href="index.php">Home</a> <span class="mx-2">/</span> Privacy Policy
+              <a href="index">Home</a> <span class="mx-2">/</span> Privacy Policy
           </div>
       </div>
   </section>

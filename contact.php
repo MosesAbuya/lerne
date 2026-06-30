@@ -41,7 +41,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
       <div class="laf-page-header-content container">
           <h1 class="display-4 fw-bold">Contact Us</h1>
           <div class="laf-breadcrumb">
-              <a href="index.php">Home</a> <span class="mx-2">/</span> Contact
+              <a href="index">Home</a> <span class="mx-2">/</span> Contact
           </div>
       </div>
   </section>

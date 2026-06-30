@@ -14,11 +14,11 @@ require_once 'includes/connection.php';
 
   <!-- PAGE HEADER -->
   <section class="laf-page-header">
-      <div class="laf-page-header-bg" style="background-image: url('images/lerne/pexels-w-10903332.jpg');"></div>
+      <div class="laf-page-header-bg" style="background-image: url('images/lerne/activities/469909348_1813644576074800_7061410995148019999_n.jpg');"></div>
       <div class="laf-page-header-content container">
           <h1 class="display-4 fw-bold">Upcoming Events</h1>
           <div class="laf-breadcrumb">
-              <a href="index.php">Home</a> <span class="mx-2">/</span> Events
+              <a href="index">Home</a> <span class="mx-2">/</span> Events
           </div>
       </div>
   </section>
@@ -61,7 +61,7 @@ require_once 'includes/connection.php';
                           <p class="text-muted mb-4 flex-grow-1" style="display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;">
                               <?= htmlspecialchars($event['description']) ?>
                           </p>
-                          <a href="event_details.php?id=<?= $event['id'] ?>" class="laf-btn laf-btn-outline-orange mt-auto align-self-start" style="padding: 8px 20px; font-size: 0.9rem;">View Details <i class="fas fa-arrow-right ms-1"></i></a>
+                          <a href="events/<?= $event['slug'] ?>" class="laf-btn laf-btn-outline-orange mt-auto align-self-start" style="padding: 8px 20px; font-size: 0.9rem;">View Details <i class="fas fa-arrow-right ms-1"></i></a>
                       </div>
                   </div>
               </div>

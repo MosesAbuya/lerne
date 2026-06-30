@@ -138,7 +138,7 @@
         <div class="container brz-page-header__content">
             <h1 class="brz-page-header__title brz-observe slide-up">OUR <span style="color:var(--orange);">PROJECTS</span></h1>
             <div class="brz-page-header__breadcrumb brz-observe slide-up anim-delay-1">
-                <a href="index.php">Home</a> / Our Projects
+                <a href="index">Home</a> / Our Projects
             </div>
         </div>
     </section>

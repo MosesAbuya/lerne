@@ -127,7 +127,7 @@ if (!$project) {
         <div class="container brz-page-header__content">
             <h1 class="brz-page-header__title brz-observe slide-up"><?php echo htmlspecialchars($project['name']); ?></h1>
             <div class="brz-page-header__breadcrumb brz-observe slide-up anim-delay-1">
-                <a href="index.php">Home</a> / <a href="projects.php">Projects</a> / Details
+                <a href="index">Home</a> / <a href="projects">Projects</a> / Details
             </div>
         </div>
     </section>
@@ -196,7 +196,7 @@ if (!$project) {
                 A PATHWAY OUT OF POVERTY. A FUTURE FULL OF HOPE.
             </h2>
             <div class="mt-4 brz-observe slide-up anim-delay-1">
-                <a href="projects.php" class="brz-btn" style="background:var(--navy); color:var(--white);">VIEW MORE PROJECTS</a>
+                <a href="projects" class="brz-btn" style="background:var(--navy); color:var(--white);">VIEW MORE PROJECTS</a>
             </div>
         </div>
     </section>

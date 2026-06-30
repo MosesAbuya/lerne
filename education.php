@@ -1,4 +1,4 @@
-﻿<?php session_start(); require_once 'includes/connection.php'; ?>
+<?php session_start(); require_once 'includes/connection.php'; ?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -15,7 +15,7 @@
       <div class="laf-page-header-content container">
           <h1 class="display-4 fw-bold">Education Support Programme</h1>
           <div class="laf-breadcrumb">
-              <a href="index.php">Home</a> <span class="mx-2">/</span> <a href="program.php">Our Work</a> <span class="mx-2">/</span> Education Support
+              <a href="index">Home</a> <span class="mx-2">/</span> <a href="program">Our Work</a> <span class="mx-2">/</span> Education Support
           </div>
       </div>
   </section>
@@ -100,18 +100,18 @@
                       <div class="laf-help-box">
                           <h3>Help Us Educate</h3>
                           <p class="text-muted mb-4">Your donation can keep a vulnerable child in school for an entire academic year.</p>
-                          <a href="donate.php" class="laf-btn laf-btn-yellow w-100 mb-3" style="display:block;text-align:center;">Donate Now &rarr;</a>
-                          <a href="volunteer.php" class="laf-btn laf-btn-outline-green w-100" style="display:block;text-align:center;">Become a Mentor</a>
+                          <a href="donate" class="laf-btn laf-btn-yellow w-100 mb-3" style="display:block;text-align:center;">Donate Now &rarr;</a>
+                          <a href="volunteer" class="laf-btn laf-btn-outline-green w-100" style="display:block;text-align:center;">Become a Mentor</a>
                       </div>
 
                       <div class="mt-4 p-4 rounded" style="background:var(--laf-green-deep);">
                           <h5 class="text-white mb-3">Other Programmes</h5>
                           <ul class="list-unstyled" style="margin:0;">
-                              <li style="padding:8px 0;border-bottom:1px solid rgba(255,255,255,0.1);"><a href="hiv.php" style="color:rgba(255,255,255,0.75);text-decoration:none;"><i class="fas fa-angle-right me-2" style="color:var(--laf-yellow);"></i>HIV Prevention &amp; Care</a></li>
-                              <li style="padding:8px 0;border-bottom:1px solid rgba(255,255,255,0.1);"><a href="srh.php" style="color:rgba(255,255,255,0.75);text-decoration:none;"><i class="fas fa-angle-right me-2" style="color:var(--laf-yellow);"></i>Sexual &amp; Reproductive Health</a></li>
-                              <li style="padding:8px 0;border-bottom:1px solid rgba(255,255,255,0.1);"><a href="sgbv.php" style="color:rgba(255,255,255,0.75);text-decoration:none;"><i class="fas fa-angle-right me-2" style="color:var(--laf-yellow);"></i>SGBV Advocacy</a></li>
-                              <li style="padding:8px 0;border-bottom:1px solid rgba(255,255,255,0.1);"><a href="junior.php" style="color:rgba(255,255,255,0.75);text-decoration:none;"><i class="fas fa-angle-right me-2" style="color:var(--laf-yellow);"></i>Child Care &amp; Support</a></li>
-                              <li style="padding:8px 0;"><a href="mental-health.php" style="color:rgba(255,255,255,0.75);text-decoration:none;"><i class="fas fa-angle-right me-2" style="color:var(--laf-yellow);"></i>Mental Health</a></li>
+                              <li style="padding:8px 0;border-bottom:1px solid rgba(255,255,255,0.1);"><a href="hiv" style="color:rgba(255,255,255,0.75);text-decoration:none;"><i class="fas fa-angle-right me-2" style="color:var(--laf-yellow);"></i>HIV Prevention &amp; Care</a></li>
+                              <li style="padding:8px 0;border-bottom:1px solid rgba(255,255,255,0.1);"><a href="srh" style="color:rgba(255,255,255,0.75);text-decoration:none;"><i class="fas fa-angle-right me-2" style="color:var(--laf-yellow);"></i>Sexual &amp; Reproductive Health</a></li>
+                              <li style="padding:8px 0;border-bottom:1px solid rgba(255,255,255,0.1);"><a href="sgbv" style="color:rgba(255,255,255,0.75);text-decoration:none;"><i class="fas fa-angle-right me-2" style="color:var(--laf-yellow);"></i>SGBV Advocacy</a></li>
+                              <li style="padding:8px 0;border-bottom:1px solid rgba(255,255,255,0.1);"><a href="junior" style="color:rgba(255,255,255,0.75);text-decoration:none;"><i class="fas fa-angle-right me-2" style="color:var(--laf-yellow);"></i>Child Care &amp; Support</a></li>
+                              <li style="padding:8px 0;"><a href="mental-health" style="color:rgba(255,255,255,0.75);text-decoration:none;"><i class="fas fa-angle-right me-2" style="color:var(--laf-yellow);"></i>Mental Health</a></li>
                           </ul>
                       </div>
                   </div>
@@ -125,8 +125,8 @@
       <div class="container text-center position-relative" style="z-index:2;">
           <h2 class="display-5 fw-bold mb-4 text-white">Support a Child's Education</h2>
           <p class="lead mb-5" style="max-width:600px;margin:0 auto 40px;color:rgba(255,255,255,0.8);">Your contribution can provide a scholarship that changes a vulnerable child's future forever.</p>
-          <a href="donate.php" class="laf-btn laf-btn-yellow me-3">Sponsor a Student</a>
-          <a href="contact.php" class="laf-btn laf-btn-outline-white">Partner With Us</a>
+          <a href="donate" class="laf-btn laf-btn-yellow me-3">Sponsor a Student</a>
+          <a href="contact" class="laf-btn laf-btn-outline-white">Partner With Us</a>
       </div>
   </section>
 

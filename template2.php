@@ -53,7 +53,7 @@
                     <div class="row">
                         <div class="col-xl-12">
                             <div class="hero-cap hero-cap2 pt-20 text-center">
-                                <h2><a href="index.php">Home</a>/Why Nairobi Slums?</h2>
+                                <h2><a href="index">Home</a>/Why Nairobi Slums?</h2>
                             </div>
                         </div>
                     </div>

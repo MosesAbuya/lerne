@@ -126,7 +126,7 @@
       <div class="laf-page-header-content container">
           <h1 class="display-4 fw-bold">Terms & Conditions</h1>
           <div class="laf-breadcrumb">
-              <a href="index.php">Home</a> <span class="mx-2">/</span> Terms & Conditions
+              <a href="index">Home</a> <span class="mx-2">/</span> Terms & Conditions
           </div>
       </div>
   </section>

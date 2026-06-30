@@ -2,16 +2,16 @@
 session_start();
 require_once 'includes/connection.php';
 
-$id = $_GET['id'] ?? null;
-if (!$id || !is_numeric($id)) {
+$slug = $_GET['slug'] ?? null;
+if (!$slug) {
     header("Location: blog.php");
     exit();
 }
 
 $story = null;
 try {
-    $stmt = $pdo->prepare("SELECT * FROM products WHERE id = ?");
-    $stmt->execute([$id]);
+    $stmt = $pdo->prepare("SELECT * FROM products WHERE slug = ?");
+    $stmt->execute([$slug]);
     $story = $stmt->fetch();
 } catch (PDOException $e) {
     // Silently handle error, redirect if not found
@@ -36,7 +36,7 @@ $image = !empty($story['photo']) ? "images/" . htmlspecialchars($story['photo'])
 
   <!-- PAGE HEADER -->
   <section class="laf-page-header">
-      <div class="laf-page-header-bg" style="background-image: url('images/lerne/pexels-w-10903332.jpg');"></div>
+      <div class="laf-page-header-bg" style="background-image: url('images/lerne/activities/469909348_1813644576074800_7061410995148019999_n.jpg');"></div>
       <div class="laf-page-header-content container">
           <h1 class="display-5 fw-bold text-truncate mx-auto" style="max-width: 900px;"><?= htmlspecialchars($story['name']) ?></h1>
           <div class="laf-breadcrumb">

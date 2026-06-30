@@ -57,9 +57,9 @@
                 </div>
             </form>
             <br>
-            <a href="password_forgot.php" class="cen">I forgot my password</a><br>
-            <a href="signupdiv.php" class="text-center cen1">Register a new membership</a><br>
-            <a href="index.php"><i class="fa fa-home cen2"></i> Home</a>
+            <a href="password_forgot" class="cen">I forgot my password</a><br>
+            <a href="signupdiv" class="text-center cen1">Register a new membership</a><br>
+            <a href="index"><i class="fa fa-home cen2"></i> Home</a>
         </div>
     </div>
 

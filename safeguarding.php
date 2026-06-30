@@ -131,7 +131,7 @@
       <div class="laf-page-header-content container">
           <h1 class="display-4 fw-bold">Safeguarding Policy</h1>
           <div class="laf-breadcrumb">
-              <a href="index.php">Home</a> <span class="mx-2">/</span> Safeguarding
+              <a href="index">Home</a> <span class="mx-2">/</span> Safeguarding
           </div>
       </div>
   </section>

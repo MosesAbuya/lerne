@@ -46,7 +46,7 @@
       <div class="laf-page-header-content container">
           <h1 class="display-4 fw-bold">Transparency</h1>
           <div class="laf-breadcrumb">
-              <a href="index.php">Home</a> <span class="mx-2">/</span> Transparency
+              <a href="index">Home</a> <span class="mx-2">/</span> Transparency
           </div>
       </div>
   </section>
@@ -135,7 +135,7 @@
                       <i class="fas fa-file-invoice fa-3x text-laf-yellow mb-3"></i>
                       <h3 class="font-heading mb-3">Annual Reports</h3>
                       <p class="mb-4 text-white-50 max-w-700 mx-auto">We publish our programmatic and financial reports annually to ensure full accountability to our stakeholders.</p>
-                      <a href="reports.php" class="laf-btn laf-btn-yellow">View Annual Reports</a>
+                      <a href="reports" class="laf-btn laf-btn-yellow">View Annual Reports</a>
                   </div>
 
               </div>

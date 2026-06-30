@@ -15,7 +15,7 @@
       <div class="laf-page-header-content container">
           <h1 class="display-4 fw-bold">How We Work</h1>
           <div class="laf-breadcrumb">
-              <a href="index.php">Home</a> <span class="mx-2">/</span> <a href="about.php">About</a> <span class="mx-2">/</span> How We Work
+              <a href="index">Home</a> <span class="mx-2">/</span> <a href="about">About</a> <span class="mx-2">/</span> How We Work
           </div>
       </div>
   </section>
@@ -146,7 +146,7 @@
       <div class="container">
           <h3 class="font-heading text-white mb-4">Partner for Sustainable Change</h3>
           <p class="text-white-50 mb-4 mx-auto max-w-700">We are actively seeking partnerships with organizations that share our community-driven approach to development.</p>
-          <a href="contact.php" class="laf-btn laf-btn-green">Contact Us</a>
+          <a href="contact" class="laf-btn laf-btn-green">Contact Us</a>
       </div>
   </section>
 

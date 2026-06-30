@@ -97,7 +97,7 @@
       <div class="container">
           <div class="auth-card">
               <div class="auth-logo">
-                  <a href="index.php">
+                  <a href="index">
                       <img src="images/lerne/logo/logo.png" alt="Lerne Adams Foundation">
                   </a>
               </div>
@@ -114,8 +114,8 @@
               </form>
               
               <div class="text-center mt-4 pt-3 border-top">
-                  <p class="text-muted small mb-0">Don't have an account? <a href="signup.php" class="text-laf-green fw-bold">Sign Up</a></p>
-                  <p class="text-muted small mt-2"><a href="index.php" class="text-laf-navy"><i class="fas fa-arrow-left me-1"></i> Back to Home</a></p>
+                  <p class="text-muted small mb-0">Don't have an account? <a href="signup" class="text-laf-green fw-bold">Sign Up</a></p>
+                  <p class="text-muted small mt-2"><a href="index" class="text-laf-navy"><i class="fas fa-arrow-left me-1"></i> Back to Home</a></p>
               </div>
           </div>
       </div>

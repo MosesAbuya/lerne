@@ -390,37 +390,37 @@
                             <h4>Other Programs</h4>
                                                                                                     <ul class="other-programs-list">
                             <li>
-                                <a href="education.php">
+                                <a href="education">
                                     <img src="assets/new/h2.jpg" alt="Education">
                                     <span>Education Support</span>
                                 </a>
                             </li>
                             <li>
-                                <a href="junior.php">
+                                <a href="junior">
                                     <img src="assets/new/junior.jpeg" alt="Junior">
                                     <span>Secondary Education</span>
                                 </a>
                             </li>
                             <li>
-                                <a href="vocational.php">
+                                <a href="vocational">
                                     <img src="assets/img/gallery/vocational.jpg" alt="Vocational">
                                     <span>Vocational Training</span>
                                 </a>
                             </li>
                             <li>
-                                <a href="mothers.php">
+                                <a href="mothers">
                                     <img src="assets/new/young.jpeg" alt="Mothers">
                                     <span>Support for Young Mothers</span>
                                 </a>
                             </li>
                             <li>
-                                <a href="holiday.php">
+                                <a href="holiday">
                                     <img src="assets/img/gallery/sports.jpg" alt="Holiday">
                                     <span>Holiday Programmes</span>
                                 </a>
                             </li>
                             <li>
-                                <a href="community.php">
+                                <a href="community">
                                     <img src="assets/img/gallery/women.jpg" alt="Community">
                                     <span>Community Transformation</span>
                                 </a>
@@ -433,7 +433,7 @@
                             <h4 style="border:none; padding:0; margin-bottom:10px;">Need More Information?</h4>
                             <p style="font-size:0.95rem; color:var(--text-muted); margin-bottom:20px;">Contact us to
                                 learn more about Community Transformation or to get involved.</p>
-                            <a href="contact.php" class="brz-btn w-100"
+                            <a href="contact" class="brz-btn w-100"
                                 style="background:#D69E2E; color:#fff; text-align:center;">Contact Us <i
                                     class="fas fa-arrow-up ml-2" style="transform: rotate(45deg);"></i></a>
                         </div>
@@ -504,9 +504,9 @@
 
                         <!-- Action Buttons -->
                         <div class="action-buttons mt-4">
-                            <a href="donation.php" class="brz-btn brz-btn-orange">Donate Now <i
+                            <a href="donation" class="brz-btn brz-btn-orange">Donate Now <i
                                     class="fas fa-arrow-right ml-2"></i></a>
-                            <a href="volunteer.php" class="brz-btn" style="background:#0B192C; color:#fff;">Become a
+                            <a href="volunteer" class="brz-btn" style="background:#0B192C; color:#fff;">Become a
                                 Volunteer <i class="fas fa-arrow-right ml-2"></i></a>
                         </div>
                     </div>

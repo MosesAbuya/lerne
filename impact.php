@@ -15,7 +15,7 @@
       <div class="laf-page-header-content container">
           <h1 class="display-4 fw-bold">Our Impact</h1>
           <div class="laf-breadcrumb">
-              <a href="index.php">Home</a> <span class="mx-2">/</span> Our Impact
+              <a href="index">Home</a> <span class="mx-2">/</span> Our Impact
           </div>
       </div>
   </section>
@@ -99,8 +99,8 @@
   <section class="py-5 bg-laf-green text-center laf-observe">
       <div class="container">
           <h3 class="font-heading text-white mb-4">Be Part of the Impact</h3>
-          <a href="reports.php" class="laf-btn laf-btn-outline-white mx-2">Read Annual Reports</a>
-          <a href="donate.php" class="laf-btn laf-btn-yellow mx-2 text-laf-navy">Support Our Work</a>
+          <a href="reports" class="laf-btn laf-btn-outline-white mx-2">Read Annual Reports</a>
+          <a href="donate" class="laf-btn laf-btn-yellow mx-2 text-laf-navy">Support Our Work</a>
       </div>
   </section>
 

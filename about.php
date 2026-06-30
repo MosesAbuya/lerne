@@ -15,7 +15,7 @@
       <div class="laf-page-header-content container">
           <h1 class="display-4 fw-bold">About Lerne Adams Foundation</h1>
           <div class="laf-breadcrumb">
-              <a href="index.php">Home</a> <span class="mx-2">/</span> About Us
+              <a href="index">Home</a> <span class="mx-2">/</span> About Us
           </div>
       </div>
   </section>
@@ -59,8 +59,8 @@
                   </div>
                   
                   <div class="d-flex flex-wrap gap-3 mt-5 align-items-center">
-                      <a href="contact.php" class="laf-btn laf-btn-yellow">Contact Us <span class="arrow">↗</span></a>
-                      <a href="program.php" class="text-decoration-none fw-bold" style="color: var(--laf-green-deep); display:flex; align-items:center; gap: 10px;">
+                      <a href="contact" class="laf-btn laf-btn-yellow">Contact Us <span class="arrow">↗</span></a>
+                      <a href="program" class="text-decoration-none fw-bold" style="color: var(--laf-green-deep); display:flex; align-items:center; gap: 10px;">
                           <div style="width:40px;height:40px;border-radius:50%;background:var(--laf-yellow);display:flex;align-items:center;justify-content:center;color:var(--laf-text-dark);"><i class="fas fa-play"></i></div>
                           View Our Work
                       </a>
@@ -80,7 +80,7 @@
               </div>
               <div class="col-lg-5 offset-lg-1 d-flex flex-column justify-content-center">
                   <p class="text-muted mb-4">Through careful planning, collaboration, and transparent execution, we turn insights into practical initiatives that create lasting, positive impact where it matters most.</p>
-                  <div><a href="donate.php" class="laf-btn laf-btn-yellow">Support Us <span class="arrow">↗</span></a></div>
+                  <div><a href="donate" class="laf-btn laf-btn-yellow">Support Us <span class="arrow">↗</span></a></div>
               </div>
           </div>
 
@@ -133,7 +133,7 @@
               <div class="col-lg-6">
                   <div class="laf-rect-images-wrapper">
                       <img src="images/lerne/friends-6065345_1280.jpg" alt="Volunteers" class="laf-rect-img-1">
-                      <img src="images/lerne/activities/470152716_1813642036075054_4537111035744741174_n.jpg" alt="Community Action" class="laf-rect-img-2">
+                      <img src="images/lerne/activities/470126786_1813644266074831_3879201944517377567_n.jpg" alt="Community Action" class="laf-rect-img-2">
                   </div>
               </div>
               
@@ -161,7 +161,7 @@
                   </div>
                   
                   <div class="mt-5">
-                      <a href="contact.php" class="laf-btn laf-btn-yellow">Contact Us <span class="arrow">↗</span></a>
+                      <a href="contact" class="laf-btn laf-btn-yellow">Contact Us <span class="arrow">↗</span></a>
                   </div>
               </div>
           </div>
@@ -219,10 +219,10 @@
                   </div>
                   
                   <div>
-                      <a href="contact.php" class="laf-btn laf-btn-yellow">Contact Us <span class="arrow">↗</span></a>
+                      <a href="contact" class="laf-btn laf-btn-yellow">Contact Us <span class="arrow">↗</span></a>
                       <div class="mt-4 d-flex align-items-center gap-3">
                           <img src="images/lerne/logo/logo.png" alt="LAF" style="height:40px; background:white; border-radius:50%; padding:5px;">
-                          <span style="font-size:0.9rem; color:rgba(255,255,255,0.8);">Let's make something great work together. <a href="donate.php" class="text-laf-yellow text-decoration-none fw-bold">Support LAF</a></span>
+                          <span style="font-size:0.9rem; color:rgba(255,255,255,0.8);">Let's make something great work together. <a href="donate" class="text-laf-yellow text-decoration-none fw-bold">Support LAF</a></span>
                       </div>
                   </div>
               </div>
@@ -235,8 +235,8 @@
       <div class="container text-center position-relative" style="z-index:2;">
           <h2 class="display-5 fw-bold mb-4 text-white">Join Our Mission</h2>
           <p class="lead mb-5" style="max-width:600px;margin:0 auto 40px;color:rgba(255,255,255,0.8);">Support our work across Western Kenya. Together we can build resilient and empowered communities.</p>
-          <a href="donate.php" class="laf-btn laf-btn-yellow me-3">Donate Now</a>
-          <a href="contact.php" class="laf-btn laf-btn-outline-white">Contact Us</a>
+          <a href="donate" class="laf-btn laf-btn-yellow me-3">Donate Now</a>
+          <a href="contact" class="laf-btn laf-btn-outline-white">Contact Us</a>
       </div>
   </section>
 

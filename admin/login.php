@@ -63,7 +63,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin Login | Barrizi Organisation</title>
+    <title>Admin Login | Lerne Adams Foundation</title>
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <!-- Bootstrap CSS -->
@@ -151,7 +151,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             <div style="font-size: 3rem; color: var(--admin-secondary); margin-bottom: 20px;">
                 <i class="fas fa-shield-alt"></i>
             </div>
-            <h2 class="fw-bold mb-3" style="font-family: var(--font-heading);">Barrizi Secure Admin</h2>
+            <h2 class="fw-bold mb-3" style="font-family: var(--font-heading);">Lerne Secure Admin</h2>
             <p style="color: rgba(255,255,255,0.8); line-height: 1.8;">
                 Welcome back! Please sign in to access the control panel, manage content, and view analytics. All sessions are monitored for security.
             </p>

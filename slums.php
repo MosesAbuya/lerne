@@ -15,7 +15,7 @@
       <div class="laf-page-header-content container">
           <h1 class="display-4 fw-bold">Urban Slum Surveillance</h1>
           <div class="laf-breadcrumb">
-              <a href="index.php">Home</a> <span class="mx-2">/</span> <a href="program.php">Our Work</a> <span class="mx-2">/</span> Slum Surveillance
+              <a href="index">Home</a> <span class="mx-2">/</span> <a href="program">Our Work</a> <span class="mx-2">/</span> Slum Surveillance
           </div>
       </div>
   </section>
@@ -141,8 +141,8 @@
           <h2 class="display-5 font-heading fw-bold">Support Our Research</h2>
           <p class="lead mb-5 max-w-700 mx-auto opacity-75">Partner with us to expand our data collection efforts and drive evidence-based policy changes.</p>
           <div class="d-flex flex-wrap justify-content-center gap-3">
-              <a href="contact.php" class="laf-btn laf-btn-green">Partner With Us</a>
-              <a href="donate.php" class="laf-btn laf-btn-outline-white">Fund Our Research</a>
+              <a href="contact" class="laf-btn laf-btn-green">Partner With Us</a>
+              <a href="donate" class="laf-btn laf-btn-outline-white">Fund Our Research</a>
           </div>
       </div>
   </section>

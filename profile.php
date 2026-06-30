@@ -368,7 +368,7 @@ try {
                 onclick="return confirm('Are you sure you want to unsubscribe?');">Unsubscribe</button>
         </form>
 
-        <a href="signout.php">
+        <a href="signout">
             <button onclick="return confirm('Are you sure you want to log out?');">Log Out</button>
         </a>
     </div>

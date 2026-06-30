@@ -15,7 +15,7 @@
       <div class="laf-page-header-content container">
           <h1 class="display-4 fw-bold">Support Our Work</h1>
           <div class="laf-breadcrumb">
-              <a href="index.php">Home</a> <span class="mx-2">/</span> Support Us
+              <a href="index">Home</a> <span class="mx-2">/</span> Support Us
           </div>
       </div>
   </section>
@@ -70,7 +70,7 @@
                       </div>
                       
                       <div class="mt-5">
-                          <a href="contact.php" class="laf-btn laf-btn-green w-100">Send Us a Message</a>
+                          <a href="contact" class="laf-btn laf-btn-green w-100">Send Us a Message</a>
                       </div>
                   </div>
               </div>

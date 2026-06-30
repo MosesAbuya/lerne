@@ -15,7 +15,7 @@
       <div class="laf-page-header-content container">
           <h1 class="display-4 fw-bold">Capacity Building</h1>
           <div class="laf-breadcrumb">
-              <a href="index.php">Home</a> <span class="mx-2">/</span> <a href="program.php">Our Work</a> <span class="mx-2">/</span> Capacity Building
+              <a href="index">Home</a> <span class="mx-2">/</span> <a href="program">Our Work</a> <span class="mx-2">/</span> Capacity Building
           </div>
       </div>
   </section>
@@ -137,8 +137,8 @@
           <h2 class="display-5 font-heading fw-bold text-laf-navy">Strengthen Community Voices</h2>
           <p class="lead mb-5 max-w-700 mx-auto opacity-75 text-laf-navy">Support our efforts to build the capacity of local leaders to demand accountability and drive development.</p>
           <div class="d-flex flex-wrap justify-content-center gap-3">
-              <a href="donate.php" class="laf-btn laf-btn-green">Donate Now</a>
-              <a href="contact.php" class="laf-btn laf-btn-outline-white" style="border-color: var(--laf-navy); color: var(--laf-navy);">Partner With Us</a>
+              <a href="donate" class="laf-btn laf-btn-green">Donate Now</a>
+              <a href="contact" class="laf-btn laf-btn-outline-white" style="border-color: var(--laf-navy); color: var(--laf-navy);">Partner With Us</a>
           </div>
       </div>
   </section>

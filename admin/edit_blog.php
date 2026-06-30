@@ -6,6 +6,11 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     header('Content-Type: application/json');
     $id = isset($_POST['id']) ? (int)$_POST['id'] : 0;
     $name = $_POST['name'] ?? '';
+    
+    // Slug generation
+    $slugBase = strtolower(trim(preg_replace('/[^A-Za-z0-9-]+/', '-', $name)));
+    $slug = trim($slugBase, '-') . '-' . $id; // Using ID for stability
+    
     $description = $_POST['description'] ?? '';
     $product_date = $_POST['product_date'] ?? date('Y-m-d');
     
@@ -39,9 +44,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $allImages = array_merge($existingImages, $imageNames);
         $imagesString = json_encode(array_values($allImages));
         
-        $updateStmt = $pdo->prepare("UPDATE products SET name = :name, description = :desc, product_date = :date, photo = :photo, other_photos = :other_photos WHERE id = :id");
+        $updateStmt = $pdo->prepare("UPDATE products SET name = :name, slug = :slug, description = :desc, product_date = :date, photo = :photo, other_photos = :other_photos WHERE id = :id");
         $updateStmt->execute([
             'name' => $name,
+            'slug' => $slug,
             'desc' => $description,
             'date' => $product_date,
             'photo' => $photoName,

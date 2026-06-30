@@ -15,7 +15,7 @@
       <div class="laf-page-header-content container">
           <h1 class="display-4 fw-bold">Sexual &amp; Reproductive Health</h1>
           <div class="laf-breadcrumb">
-              <a href="index.php">Home</a> <span class="mx-2">/</span> <a href="program.php">Our Work</a> <span class="mx-2">/</span> Sexual &amp; Reproductive Health
+              <a href="index">Home</a> <span class="mx-2">/</span> <a href="program">Our Work</a> <span class="mx-2">/</span> Sexual &amp; Reproductive Health
           </div>
       </div>
   </section>
@@ -90,18 +90,18 @@
                       <div class="laf-help-box">
                           <h3>Champion SRH Rights</h3>
                           <p class="text-muted mb-4">Your support helps us deliver SRH education to thousands of young people and support maternal health in our communities.</p>
-                          <a href="donate.php" class="laf-btn laf-btn-yellow w-100 mb-3" style="display:block;text-align:center;">Donate Now &rarr;</a>
-                          <a href="volunteer.php" class="laf-btn laf-btn-outline-green w-100" style="display:block;text-align:center;">Volunteer / Mentor</a>
+                          <a href="donate" class="laf-btn laf-btn-yellow w-100 mb-3" style="display:block;text-align:center;">Donate Now &rarr;</a>
+                          <a href="volunteer" class="laf-btn laf-btn-outline-green w-100" style="display:block;text-align:center;">Volunteer / Mentor</a>
                       </div>
 
                       <div class="mt-4 p-4 rounded" style="background:var(--laf-green-deep);">
                           <h5 class="text-white mb-3">Other Programmes</h5>
                           <ul class="list-unstyled" style="margin:0;">
-                              <li style="padding:8px 0;border-bottom:1px solid rgba(255,255,255,0.1);"><a href="education.php" style="color:rgba(255,255,255,0.75);text-decoration:none;"><i class="fas fa-angle-right me-2" style="color:var(--laf-yellow);"></i>Education Support</a></li>
-                              <li style="padding:8px 0;border-bottom:1px solid rgba(255,255,255,0.1);"><a href="hiv.php" style="color:rgba(255,255,255,0.75);text-decoration:none;"><i class="fas fa-angle-right me-2" style="color:var(--laf-yellow);"></i>HIV Prevention &amp; Care</a></li>
-                              <li style="padding:8px 0;border-bottom:1px solid rgba(255,255,255,0.1);"><a href="sgbv.php" style="color:rgba(255,255,255,0.75);text-decoration:none;"><i class="fas fa-angle-right me-2" style="color:var(--laf-yellow);"></i>SGBV Advocacy</a></li>
-                              <li style="padding:8px 0;border-bottom:1px solid rgba(255,255,255,0.1);"><a href="junior.php" style="color:rgba(255,255,255,0.75);text-decoration:none;"><i class="fas fa-angle-right me-2" style="color:var(--laf-yellow);"></i>Child Care &amp; Support</a></li>
-                              <li style="padding:8px 0;"><a href="mental-health.php" style="color:rgba(255,255,255,0.75);text-decoration:none;"><i class="fas fa-angle-right me-2" style="color:var(--laf-yellow);"></i>Mental Health</a></li>
+                              <li style="padding:8px 0;border-bottom:1px solid rgba(255,255,255,0.1);"><a href="education" style="color:rgba(255,255,255,0.75);text-decoration:none;"><i class="fas fa-angle-right me-2" style="color:var(--laf-yellow);"></i>Education Support</a></li>
+                              <li style="padding:8px 0;border-bottom:1px solid rgba(255,255,255,0.1);"><a href="hiv" style="color:rgba(255,255,255,0.75);text-decoration:none;"><i class="fas fa-angle-right me-2" style="color:var(--laf-yellow);"></i>HIV Prevention &amp; Care</a></li>
+                              <li style="padding:8px 0;border-bottom:1px solid rgba(255,255,255,0.1);"><a href="sgbv" style="color:rgba(255,255,255,0.75);text-decoration:none;"><i class="fas fa-angle-right me-2" style="color:var(--laf-yellow);"></i>SGBV Advocacy</a></li>
+                              <li style="padding:8px 0;border-bottom:1px solid rgba(255,255,255,0.1);"><a href="junior" style="color:rgba(255,255,255,0.75);text-decoration:none;"><i class="fas fa-angle-right me-2" style="color:var(--laf-yellow);"></i>Child Care &amp; Support</a></li>
+                              <li style="padding:8px 0;"><a href="mental-health" style="color:rgba(255,255,255,0.75);text-decoration:none;"><i class="fas fa-angle-right me-2" style="color:var(--laf-yellow);"></i>Mental Health</a></li>
                           </ul>
                       </div>
                   </div>
@@ -116,8 +116,8 @@
       <div class="container text-center position-relative" style="z-index:2;">
           <h2 class="display-5 fw-bold mb-4 text-white">Champion Sexual &amp; Reproductive Health</h2>
           <p class="lead mb-5" style="max-width:700px;margin:0 auto 40px;color:rgba(255,255,255,0.8);">Help us ensure every individual has the knowledge and access to services to make informed reproductive health choices.</p>
-          <a href="donate.php" class="laf-btn laf-btn-yellow me-3">Support Our Work</a>
-          <a href="volunteer.php" class="laf-btn laf-btn-outline-white">Get Involved</a>
+          <a href="donate" class="laf-btn laf-btn-yellow me-3">Support Our Work</a>
+          <a href="volunteer" class="laf-btn laf-btn-outline-white">Get Involved</a>
       </div>
   </section>
 

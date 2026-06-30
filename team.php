@@ -15,7 +15,7 @@
       <div class="laf-page-header-content container">
           <h1 class="display-4 fw-bold">Our Team</h1>
           <div class="laf-breadcrumb">
-              <a href="index.php">Home</a> <span class="mx-2">/</span> <a href="about.php">About</a> <span class="mx-2">/</span> Our Team
+              <a href="index">Home</a> <span class="mx-2">/</span> <a href="about">About</a> <span class="mx-2">/</span> Our Team
           </div>
       </div>
   </section>
@@ -50,7 +50,7 @@
           <div class="mt-5 p-5 bg-laf-navy text-white rounded">
               <h3 class="font-heading text-laf-yellow mb-3">Join Our Mission</h3>
               <p class="mb-4">We are always looking for passionate individuals to volunteer or partner with us in our community initiatives.</p>
-              <a href="volunteer.php" class="laf-btn laf-btn-green">Become a Volunteer</a>
+              <a href="volunteer" class="laf-btn laf-btn-green">Become a Volunteer</a>
           </div>
       </div>
   </section>

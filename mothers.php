@@ -15,7 +15,7 @@
       <div class="laf-page-header-content container">
           <h1 class="display-4 fw-bold">Single Parents Project</h1>
           <div class="laf-breadcrumb">
-              <a href="index.php">Home</a> <span class="mx-2">/</span> <a href="program.php">Our Work</a> <span class="mx-2">/</span> Single Parents
+              <a href="index">Home</a> <span class="mx-2">/</span> <a href="program">Our Work</a> <span class="mx-2">/</span> Single Parents
           </div>
       </div>
   </section>
@@ -137,8 +137,8 @@
           <h2 class="display-5 font-heading fw-bold">Empower a Family</h2>
           <p class="lead mb-5 max-w-700 mx-auto opacity-75">Your support can help a single parent start a business and provide for their children.</p>
           <div class="d-flex flex-wrap justify-content-center gap-3">
-              <a href="donate.php" class="laf-btn laf-btn-yellow text-laf-navy">Donate to the Fund</a>
-              <a href="contact.php" class="laf-btn laf-btn-outline-white">Partner With Us</a>
+              <a href="donate" class="laf-btn laf-btn-yellow text-laf-navy">Donate to the Fund</a>
+              <a href="contact" class="laf-btn laf-btn-outline-white">Partner With Us</a>
           </div>
       </div>
   </section>

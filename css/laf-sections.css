@@ -515,7 +515,7 @@
 .laf-page-header {
     position: relative;
     min-height: 80vh;
-    padding: 100px 0 0;
+    padding: 150px 0 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -577,14 +577,14 @@
 .laf-about-circle-img { width: 100%; height: 100%; object-fit: cover; }
 
 .laf-feature-box-yellow { background: #fff; border-radius: 12px; padding: 30px; box-shadow: 0 10px 30px rgba(0,0,0,0.08); margin-top: 30px; }
-.laf-feature-box-yellow .icon-box { width: 50px; height: 50px; border-radius: 50%; background: var(--laf-yellow); display: flex; align-items: center; justify-content: center; font-size: 1.2rem; color: var(--laf-text-dark); margin-bottom: 20px; }
+.laf-feature-box-yellow .icon-box { width: 50px; height: 50px; min-width: 50px; min-height: 50px; flex-shrink: 0; border-radius: 50%; background: var(--laf-yellow); display: flex; align-items: center; justify-content: center; font-size: 1.2rem; color: var(--laf-text-dark); margin-bottom: 20px; }
 
 .laf-pill-badge { display: inline-flex; align-items: center; padding: 6px 16px; border-radius: 20px; border: 1px solid rgba(0,0,0,0.1); font-size: 0.8rem; font-weight: 600; color: var(--laf-text-dark); background: #fff; margin-bottom: 20px; }
 .laf-pill-badge::before { content: ''; display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: var(--laf-yellow); margin-right: 8px; }
 
 .laf-mvv-card { background: var(--laf-light-gray); border-radius: 16px; padding: 40px 30px; height: 100%; position: relative; overflow: hidden; border: none; transition: transform 0.3s ease; }
 .laf-mvv-card:hover { transform: translateY(-5px); }
-.laf-mvv-icon { width: 55px; height: 55px; border-radius: 50%; background: var(--laf-yellow); display: flex; align-items: center; justify-content: center; font-size: 1.4rem; color: var(--laf-text-dark); margin-bottom: 24px; }
+.laf-mvv-icon { width: 55px; height: 55px; min-width: 55px; min-height: 55px; flex-shrink: 0; border-radius: 50%; background: var(--laf-yellow); display: flex; align-items: center; justify-content: center; font-size: 1.4rem; color: var(--laf-text-dark); margin-bottom: 24px; }
 .laf-mvv-card h4 { color: var(--laf-green-deep); font-weight: 800; margin-bottom: 20px; }
 .laf-mvv-card p { color: var(--laf-text-muted); font-size: 0.95rem; line-height: 1.6; margin-bottom: 30px; }
 .laf-mvv-check { display: flex; align-items: flex-start; gap: 12px; border-top: 1px solid rgba(0,0,0,0.1); padding-top: 20px; }
@@ -607,8 +607,8 @@
 .laf-dark-stat-float { position: absolute; background: #fff; border-radius: 12px; padding: 20px; color: var(--laf-text-dark); box-shadow: 0 15px 30px rgba(0,0,0,0.2); }
 .laf-dark-stat-float.top-left { top: 0; left: 20px; z-index: 3; }
 .laf-dark-stat-float.bottom-left { bottom: 50px; left: -20px; z-index: 3; display: flex; align-items: center; gap: 15px; }
-.laf-dark-stat-float .icon { width: 40px; height: 40px; border-radius: 8px; background: var(--laf-yellow); display: flex; align-items: center; justify-content: center; }
+.laf-dark-stat-float .icon { width: 40px; height: 40px; min-width: 40px; min-height: 40px; flex-shrink: 0; border-radius: 8px; background: var(--laf-yellow); display: flex; align-items: center; justify-content: center; }
 .laf-action-pill { display: inline-block; padding: 10px 24px; background: var(--laf-yellow); color: var(--laf-text-dark); font-weight: 700; border-radius: 30px; font-size: 0.9rem; margin-right: 10px; margin-bottom: 10px; }
 .laf-action-pill.outline { background: transparent; border: 1px solid rgba(255,255,255,0.3); color: #fff; }
 .laf-feature-row { display: flex; gap: 20px; align-items: flex-start; border-top: 1px solid rgba(255,255,255,0.1); border-bottom: 1px solid rgba(255,255,255,0.1); padding: 30px 0; margin: 40px 0; }
-.laf-feature-row .icon { width: 48px; height: 48px; border-radius: 50%; background: var(--laf-yellow); color: var(--laf-text-dark); display: flex; align-items: center; justify-content: center; font-size: 1.2rem; flex-shrink: 0; }
+.laf-feature-row .icon { width: 48px; height: 48px; min-width: 48px; min-height: 48px; flex-shrink: 0; border-radius: 50%; background: var(--laf-yellow); color: var(--laf-text-dark); display: flex; align-items: center; justify-content: center; font-size: 1.2rem; }

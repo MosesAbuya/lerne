@@ -18,7 +18,7 @@ require_once 'includes/connection.php';
       <div class="laf-page-header-content container">
           <h1 class="display-4 fw-bold">Volunteer With Us</h1>
           <div class="laf-breadcrumb">
-              <a href="index.php">Home</a> <span class="mx-2">/</span> Get Involved <span class="mx-2">/</span> Volunteer
+              <a href="index">Home</a> <span class="mx-2">/</span> Get Involved <span class="mx-2">/</span> Volunteer
           </div>
       </div>
   </section>

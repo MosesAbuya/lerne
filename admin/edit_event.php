@@ -6,6 +6,11 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     header('Content-Type: application/json');
     $id = isset($_POST['id']) ? (int)$_POST['id'] : 0;
     $name = $_POST['name'] ?? '';
+    
+    // Slug generation
+    $slugBase = strtolower(trim(preg_replace('/[^A-Za-z0-9-]+/', '-', $name)));
+    $slug = trim($slugBase, '-') . '-' . $id;
+    
     $event_date = $_POST['event_date'] ?? '';
     $event_time = $_POST['event_time'] ?? '';
     $location = $_POST['location'] ?? '';
@@ -24,9 +29,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     }
     
     try {
-        $stmt = $pdo->prepare("UPDATE events SET name = :name, event_date = :date, event_time = :time, location = :loc, p_category = :cat, description = :desc, photo = :photo WHERE id = :id");
+        $stmt = $pdo->prepare("UPDATE events SET name = :name, slug = :slug, event_date = :date, event_time = :time, location = :loc, p_category = :cat, description = :desc, photo = :photo WHERE id = :id");
         $stmt->execute([
             'name' => $name,
+            'slug' => $slug,
             'date' => $event_date,
             'time' => $event_time,
             'loc' => $location,
