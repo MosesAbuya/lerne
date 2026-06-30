@@ -1,7 +1,7 @@
 # Rewrite rules for SEO and extensions
 Options -MultiViews
 RewriteEngine on
-RewriteBase /lerne/
+# RewriteBase /lerne/  (Uncomment and set to / if you have 404s on live hosting, but usually leaving it blank works for both)
 
 # SEO Slugs for News and Events
 RewriteRule ^news/([a-zA-Z0-9_-]+)/?$ blog_details.php?slug=$1 [L,NC,QSA]
