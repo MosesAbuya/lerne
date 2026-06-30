@@ -1,7 +1,7 @@
 # Rewrite rules for SEO and extensions
 Options -MultiViews
-RewriteEngine on
-# RewriteBase /lerne/  (Uncomment and set to / if you have 404s on live hosting, but usually leaving it blank works for both)
+RewriteEngine On
+RewriteBase /
 
 # SEO Slugs for News and Events
 RewriteRule ^news/([a-zA-Z0-9_-]+)/?$ blog_details.php?slug=$1 [L,NC,QSA]
@@ -9,8 +9,9 @@ RewriteRule ^events/([a-zA-Z0-9_-]+)/?$ event_details.php?slug=$1 [L,NC,QSA]
 
 # Remove .php extension
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME}\.php -f
-RewriteRule ^([^\.]+)/?$ $1.php [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.*)$ $1.php [L]
 
 # Prevent directory listing
 Options -Indexes
