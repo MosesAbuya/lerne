@@ -1,18 +1,21 @@
 <IfModule mod_rewrite.c>
     RewriteEngine On
+    RewriteBase /
 
     # SEO Slugs for News and Events
-    RewriteRule ^news/([^/]+)/?$ blog_details.php?slug=$1 [L,QSA]
-    RewriteRule ^events/([^/]+)/?$ event_details.php?slug=$1 [L,QSA]
-
-    # Remove .php extension
-    # If the requested URI is not a directory or file
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteCond %{REQUEST_FILENAME} !-f
-    # And if the corresponding .php file exists
-    RewriteCond %{REQUEST_FILENAME}.php -f
-    # Rewrite to the .php file
-    RewriteRule ^([^\.]+)$ $1.php [NC,L]
+    RewriteRule ^news/([^/]+)/?$ blog_details.php?slug=$1 [L,QSA]
+
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^events/([^/]+)/?$ event_details.php?slug=$1 [L,QSA]
+
+    # Remove .php extension securely (Prevents 500 redirect loops)
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI}.php -f
+    RewriteRule ^(.*)$ $1.php [L]
 </IfModule>
 
 <IfModule mod_expires.c>
